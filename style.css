@@ -350,8 +350,7 @@ body {
   font-weight: bold;
   text-align: start;
 }
-.texto-carousel {
-}
+
 /* FIN QUINTA SECCION */
 
 /* INICIO SEXTA SECCION */
@@ -529,7 +528,6 @@ body {
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
   font-weight: bold;
   width: 100px;
-  height: ;
 }
 .seccion-formulario__icono-volver-inicio {
   background-color: #02a5a7;
@@ -570,7 +568,6 @@ body {
 .footer__menu {
   margin: 20px 0px;
   width: auto;
-  text-decoration: none;
 }
 .footer__menu-ul {
   display: flex;
@@ -583,6 +580,9 @@ body {
   color: #02a5a7;
   font-size: 30px;
   margin: 0px 10px;
+}
+.nav-link {
+  color: white;
 }
 /* FIN FOOTER */
 
@@ -1503,14 +1503,20 @@ body {
     color: white;
   }
   .footer__menu {
-    margin: 20px 0px;
+    margin: auto;
   }
   .nav-link {
     font-size: 13px;
   }
   .footer__menu-ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  .nav-item {
+    text-align: center;
+    width: 150px;
+    height: 30px;
   }
 
   .footer__redes-sociales-insta,
@@ -1524,25 +1530,30 @@ body {
 /* FIN MEDIAQUERIES FOOTER */
 
 /* COMIENZO FIXED BOTTOM */
-.fondo-footer{
-  background-color: rgb(29,35,38);
+.fondo-footer {
+  background-color: rgb(29, 35, 38);
 }
 
-.color-boton{
-  background-color: rgb(2,165,167);
+.color-boton {
+  background-color: rgb(2, 165, 167);
 }
 
-.color-boton:hover{
+.color-boton:hover {
   background-color: #d9bb96;
 }
 
-.color-letra{
+.color-letra {
   color: rgb(255, 255, 255);
-  font-size: medium;
+  font-size: small;
+  text-decoration: none !important;
 }
 
-.color-letra:hover{
+.color-letra:hover {
   color: rgb(255, 255, 255);
 }
 
+.whatsapp-footer {
+  margin-right: 10px;
+  font-size: x-large;
+}
 /* FIN FIXED BOTTOM */
