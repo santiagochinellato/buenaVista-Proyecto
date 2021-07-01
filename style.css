@@ -181,9 +181,11 @@ body {
 /* FIN SEGUNDA SECCION */
 
 /* INICIO TERCERA SECCION */
-
+.seccion-informacion {
+  margin-bottom: 100px;
+}
 .seccion-informacion__titulo {
-  margin: 100px 0px 0px 0px;
+  margin: 100px 0px 100px 0px;
   text-align: center;
   color: rgb(2, 165, 167);
   font-weight: bold;
@@ -192,40 +194,30 @@ body {
 .seccion-informacion__contenedor-informacion {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 150px;
+  margin: 0px auto 200px auto;
 }
-.seccion-informacion__contenedor-informacion-texto-primera-parte,
-.seccion-informacion__contenedor-informacion-texto-segunda-parte,
-.seccion-informacion__contenedor-informacion-texto-tercera-parte {
-  width: 70%;
+.seccion-informacion__contenedor-informacion-texto-primera-parte
+  .seccion-informacion__contenedor-informacion-texto-segunda-parte
+  .seccion-informacion__contenedor-informacion-texto-tercera-parte {
   text-align: justify;
-  margin-right: 50px;
-  font-size: small;
 }
-
+.boton-informacion {
+  justify-self: start;
+}
 .seccion-informacion__contenedor-informacion-texto-boton {
-  /* position: relative;
-  right: 950px;
-  top: 330px; */
-  margin-top: 10px;
   background-color: rgb(2, 165, 167);
   border: none;
   height: 50px;
-  /* rgb(217,187,150) */
   width: 200px;
-  margin: 0px 700px 0px 0px;
   font-weight: bold;
+  justify-self: start;
+  margin-top: 30px;
 }
 
-/* .seccion-informacion__contenedor-informacion-mapa {
-  width: 700px;
-  height: 350px;
-} */
-
-.seccion-informacion__contenedor-informacion-mapa-tablets {
-  bottom: 1000px !important;
-  width: 400px !important;
+.informacion-mapa {
+  position: absolute;
+  width: 500px !important;
+  height: 360px !important;
 }
 .tercera-seccion-bis {
   margin: 50px 0px 100px 0px;
@@ -815,192 +807,251 @@ body {
 /* MEDIAQUERY TERCERA SECCION */
 
 /* MEDIAQUERY TABLETS TERCERA SECCION*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 728px) and (max-width: 766px) {
+  .seccion-informacion {
+    margin-bottom: 100px;
+  }
   .seccion-informacion__titulo {
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0px 100px 0px;
     text-align: center;
     color: rgb(2, 165, 167);
-    padding-bottom: 0px;
+    font-weight: bold;
   }
 
-  .seccion-informacion__contenedor-informacion {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px 0px;
-    width: auto;
-    max-width: 800px;
-    margin-bottom: 50px;
-  }
-  .seccion-informacion__contenedor-informacion-texto {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    margin: 100px 0px 50px 0px;
-  }
-  .seccion-informacion__contenedor-informacion-texto-primera-parte,
-  .seccion-informacion__contenedor-informacion-texto-segunda-parte,
-  .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-    margin: auto;
-    margin-bottom: 30px;
+  .seccion-informacion__contenedor-informacion-texto-primera-parte
+    .seccion-informacion__contenedor-informacion-texto-segunda-parte
+    .seccion-informacion__contenedor-informacion-texto-tercera-parte {
     text-align: justify;
-    width: 100%;
   }
-
   .seccion-informacion__contenedor-informacion-texto-boton {
-    margin-top: 10px;
     background-color: rgb(2, 165, 167);
     border: none;
-    margin: 70px 0px 200px 0px;
+    height: 50px;
     width: 200px;
+    font-weight: bold;
+    justify-self: start;
   }
-
-  .seccion-informacion__contenedor-informacion-mapa {
-    width: 250px;
-    height: 250px;
-    float: right;
+  .seccion-informacion-mapa {
+    margin-bottom: 330px;
+    margin: auto;
   }
-  .seccion-informacion__contenedor-informacion-mapa-tablets {
-    width: 200px;
-    height: 200px;
+  .informacion-mapa {
+    width: 450px;
+    height: 300px;
   }
-
   .tercera-seccion-bis {
-    margin: 0px 0px 100px 0px;
+    margin: 50px 0px 100px 0px;
   }
-
+  .tercera-seccion-bis-imagen-buenavista {
+    display: block;
+    margin: auto;
+  }
   .tercera-seccion-bis__titulo {
     text-align: center;
     color: rgb(217, 187, 150);
-    font-size: 40px;
-    margin-top: 0px;
+    font-size: 150px;
+    margin: 100px 0px 50px 0px;
+    font-weight: bold;
+    font-family: "akkurat-bold";
+    letter-spacing: 15px !important;
   }
 
   .tercera-seccion-bis__texto {
     text-align: center;
-    margin-bottom: 10px;
   }
 
   .tercera-seccion-bis__contenedor-imagenes {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    padding-bottom: 100px;
   }
 
   .tercera-seccion-bis__contenedor-imagenes-card {
-    width: 300px;
-    margin-bottom: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .tercera-seccion-bis__contenedor-imagenes-foto {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 5%;
-    margin: 0px 10px 0px 10px;
   }
 
   .tercera-seccion-bis__contenedor-imagenes-foto-texto {
     text-align: center;
-    margin-top: 30px;
-    margin-right: 0px;
-    margin-bottom: 30px;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 17px;
   }
-  .parallax {
-    height: 400px;
-    background-image: url(./img/parallax-tablets.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .seccion-informacion {
+    margin-bottom: 100px;
+  }
+  .seccion-informacion__titulo {
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+    color: rgb(2, 165, 167);
+    font-weight: bold;
+  }
+  .seccion-informacion__contenedor-informacion-texto-primera-parte
+    .seccion-informacion__contenedor-informacion-texto-segunda-parte
+    .seccion-informacion__contenedor-informacion-texto-tercera-parte {
+    text-align: justify;
+  }
+  .boton-informacion {
+    justify-self: start;
+  }
+  .seccion-informacion__contenedor-informacion-texto-boton {
+    background-color: rgb(2, 165, 167);
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    justify-self: start;
+    margin-top: 30px;
+  }
+
+  .tercera-seccion-bis {
+    margin: 50px 0px 100px 0px;
+  }
+  .tercera-seccion-bis-imagen-buenavista {
+    display: block;
+    margin: auto;
+  }
+  .tercera-seccion-bis__titulo {
+    text-align: center;
+    color: rgb(217, 187, 150);
+    font-size: 150px;
+    margin: 100px 0px 50px 0px;
+    font-weight: bold;
+    font-family: "akkurat-bold";
+    letter-spacing: 15px !important;
+  }
+
+  .tercera-seccion-bis__texto {
+    text-align: center;
+  }
+
+  .tercera-seccion-bis__contenedor-imagenes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .tercera-seccion-bis__contenedor-imagenes-card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tercera-seccion-bis__contenedor-imagenes-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+  }
+
+  .tercera-seccion-bis__contenedor-imagenes-foto-texto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
   }
 }
 /* MEDIAQUERY TABLETS */
 /* MEDIAQUERY CELULARES TERCERA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
+  .seccion-informacion {
+    margin-bottom: 100px;
+  }
   .seccion-informacion__titulo {
     margin: 100px 0px 100px 0px;
     text-align: center;
     color: rgb(2, 165, 167);
+    font-weight: bold;
   }
 
-  .seccion-informacion__contenedor-informacion {
+  .boton-informacion {
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
-    max-height: 800px;
-    align-items: center;
-    margin-bottom: 50px;
   }
-  .seccion-informacion__contenedor-informacion-texto-primera-parte,
-  .seccion-informacion__contenedor-informacion-texto-segunda-parte,
-  .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-    margin: auto;
-    margin-bottom: 10px;
+  .seccion-informacion__contenedor-informacion-texto-primera-parte
+    .seccion-informacion__contenedor-informacion-texto-segunda-parte
+    .seccion-informacion__contenedor-informacion-texto-tercera-parte {
     text-align: justify;
   }
-
   .seccion-informacion__contenedor-informacion-texto-boton {
     background-color: rgb(2, 165, 167);
     border: none;
-    margin: 50px 0px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    justify-self: start;
   }
-
-  /* .seccion-informacion__contenedor-informacion-mapa {
-    width: 100%;
-    height: auto;
-    display: none;
-  } */
-  .seccion-informacion__contenedor-informacion-mapa-tablets {
-    width: 200px !important;
-    height: 150px;
-    margin: 30px 0px;
+  .seccion-informacion-mapa {
+    margin: 50px auto 200px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .informacion-mapa {
+    position: absolute;
+    width: 300px !important;
+    height: 150px !important;
   }
   .tercera-seccion-bis {
-    margin: 0px 0px 100px 0px;
+    margin: 50px 0px 100px 0px;
   }
-
+  .tercera-seccion-bis-imagen-buenavista {
+    display: block;
+    margin: auto;
+  }
   .tercera-seccion-bis__titulo {
     text-align: center;
     color: rgb(217, 187, 150);
-    font-size: 30px;
-    margin-top: 100px;
+    font-size: 150px;
+    margin: 100px 0px 50px 0px;
+    font-weight: bold;
+    font-family: "akkurat-bold";
+    letter-spacing: 15px !important;
   }
 
   .tercera-seccion-bis__texto {
     text-align: center;
-    font-size: 15px;
-    margin: 20px 10px 10px 0px;
   }
 
   .tercera-seccion-bis__contenedor-imagenes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .tercera-seccion-bis__contenedor-imagenes-card {
+    width: 250px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .tercera-seccion-bis__contenedor-imagenes-foto {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 5%;
   }
 
   .tercera-seccion-bis__contenedor-imagenes-foto-texto {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-  .parallax {
-    height: 300px;
-    background-image: url(./img/parallax.jpg);
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
+    margin-top: 20px;
+    font-size: 17px;
   }
 }
 
-/* FIN MEDIAQUERY CELULARES  */
 /* FIN MEDIAQUERY TERCERA SECCION */
 
 /*MEDIAQUERIES CUARTA SECCION */
