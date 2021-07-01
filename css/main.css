@@ -1,0 +1,31 @@
+/* NAVBAR */
+.bg-menu {
+  background-color: rgb(29, 35, 38);
+}
+
+.nav-link-color {
+  border-radius: 5px;
+  background-color: #02a5a7;
+}
+
+a {
+  color: white !important;
+  font-size: large;
+}
+
+/* PRIMERA SECCION */
+.primera-seccion {
+  /* background-image: url(../img/puntadeleste.jpg); */
+}
+.primera-seccion__imagen {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.primera-seccion__presentacion {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* FIN PRIMERA SECCION */
