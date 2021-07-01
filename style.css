@@ -1471,3 +1471,27 @@ body {
 }
 /* FIN MEDIAQUERIES CELULAR */
 /* FIN MEDIAQUERIES FOOTER */
+
+/* COMIENZO FIXED BOTTOM */
+.fondo-footer{
+  background-color: rgb(29,35,38);
+}
+
+.color-boton{
+  background-color: rgb(2,165,167);
+}
+
+.color-boton:hover{
+  background-color: #d9bb96;
+}
+
+.color-letra{
+  color: rgb(255, 255, 255);
+  font-size: medium;
+}
+
+.color-letra:hover{
+  color: rgb(255, 255, 255);
+}
+
+/* FIN FIXED BOTTOM */
