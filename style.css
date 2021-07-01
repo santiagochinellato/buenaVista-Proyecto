@@ -143,9 +143,10 @@ body {
 
 .bg-seccion2 {
   background: rgb(3, 166, 166);
+  margin: 0px;
 }
 
-.color-letra {
+.color-letra-titulo {
   color: white;
   font-size: 200%;
   font-weight: bold;
