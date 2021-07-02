@@ -628,7 +628,6 @@ body {
   color: white;
   position: relative;
   float: right;
-  left: 600px;
   bottom: 50px;
   padding-left: 3px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
@@ -903,6 +902,9 @@ body {
     float: right;
     bottom: 80px;
     right: 40px;
+    display: none;
+  }
+  .seccion-formulario__icono-volver-inicio {
     display: none;
   }
 }
@@ -1535,6 +1537,9 @@ body {
     color: white;
     margin: 50px;
   }
+  .seccion-formulario__icono-volver-inicio {
+    display: none;
+  }
 }
 /* FIN MEDIAQUERIES CELULAR  OCTAVA SECCION*/
 
@@ -1582,6 +1587,9 @@ body {
     bottom: 80px;
     padding-left: 3px;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+  }
+  .seccion-formulario__icono-volver-inicio {
+    display: none;
   }
 }
 /* FIN MEDIAQUERIES CELULAR */
