@@ -468,10 +468,10 @@ body {
   margin: 50px 50px 0px 50px;
 }
 
-.seccion-tipologia__departamentos-card:hover {
+/* .seccion-tipologia__departamentos-card:hover {
   transform: scale(1.3);
   transition: 2s;
-}
+} */
 
 .seccion-tipologia__departamentos-card-fotouno,
 .seccion-tipologia__departamentos-card-fotodos,
@@ -732,6 +732,9 @@ body {
 /* MEDIAQUERY PRIMERA SECCION MODERNIDAD Y NATURALEZA*/
 /* MEDIAQUERY CELULARES  SEGUNDA SECCION  MODERNIDAD Y NATURALEZA*/
 @media (min-width: 320px) and (max-width: 767px) {
+  .primera-seccion__presentacion-icono-whatsapp {
+    display: none;
+  }
   .primera-seccion {
     background-image: url(/img/puntadeleste.jpg) center center cover no-repeat
       fixed;
@@ -928,7 +931,7 @@ body {
     margin: auto;
   }
   .informacion-mapa {
-    width: 450px;
+    width: 500px;
     height: 300px;
   }
   .tercera-seccion-bis {
@@ -1006,7 +1009,9 @@ body {
     justify-self: start;
     margin-top: 30px;
   }
-
+  .informacion-mapa {
+    width: 400px !important;
+  }
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
@@ -1072,10 +1077,13 @@ body {
     display: flex;
     justify-content: center;
   }
+  .seccion-informacion-texto {
+    text-align: center;
+  }
   .seccion-informacion__contenedor-informacion-texto-primera-parte
     .seccion-informacion__contenedor-informacion-texto-segunda-parte
     .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-    text-align: justify;
+    text-align: center;
   }
   .seccion-informacion__contenedor-informacion-texto-boton {
     background-color: rgb(2, 165, 167);
