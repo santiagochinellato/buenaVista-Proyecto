@@ -282,7 +282,7 @@ body {
 
 .seccion-informacion__contenedor-informacion {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0px auto 200px auto;
 }
 .seccion-informacion__contenedor-informacion-texto-primera-parte
@@ -302,11 +302,14 @@ body {
   justify-self: start;
   margin-top: 30px;
 }
-
+.seccion-informacion-mapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .informacion-mapa {
   position: absolute;
-  width: 500px !important;
-  height: 360px !important;
+  margin-left: 100px;
 }
 .tercera-seccion-bis {
   margin: 50px 0px 100px 0px;
