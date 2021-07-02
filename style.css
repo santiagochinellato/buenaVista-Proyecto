@@ -679,6 +679,13 @@ body {
 .nav-link {
   color: white;
 }
+.pie-de-pagina {
+  color: white;
+}
+.krak {
+  text-decoration: none;
+  color: #d9bb96;
+}
 /* FIN FOOTER */
 
 /* AQUI COMIENZAN LOS MEDIAQUERYS DE LAS SECCIONES */
