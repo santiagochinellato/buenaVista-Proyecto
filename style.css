@@ -270,47 +270,19 @@ body {
 /* FIN SEGUNDA SECCION */
 
 /* INICIO TERCERA SECCION */
-.seccion-informacion {
-  margin-bottom: 100px;
-}
-.seccion-informacion__titulo {
-  margin: 100px 0px 100px 0px;
-  text-align: center;
-  color: rgb(2, 165, 167);
-  font-weight: bold;
+.color-subtit{
+  color: rgb(2,165,167);
 }
 
-.seccion-informacion__contenedor-informacion {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px auto 200px auto;
+.boton-sabermas{
+  background-color: rgb(2,165,167) !important;
 }
-.seccion-informacion__contenedor-informacion-texto-primera-parte
-  .seccion-informacion__contenedor-informacion-texto-segunda-parte
-  .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-  text-align: justify;
+
+.boton-sabermas:hover{
+  background-color: rgb(217, 187, 150) !important;
+  color: rgb(255, 255, 255) !important;
 }
-.boton-informacion {
-  justify-self: start;
-}
-.seccion-informacion__contenedor-informacion-texto-boton {
-  background-color: rgb(2, 165, 167);
-  border: none;
-  height: 50px;
-  width: 200px;
-  font-weight: bold;
-  justify-self: start;
-  margin-top: 30px;
-}
-.seccion-informacion-mapa {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.informacion-mapa {
-  position: absolute;
-  margin-left: 100px;
-}
+
 .tercera-seccion-bis {
   margin: 50px 0px 100px 0px;
 }
@@ -906,37 +878,7 @@ body {
 
 /* MEDIAQUERY TABLETS TERCERA SECCION*/
 @media (min-width: 728px) and (max-width: 766px) {
-  .seccion-informacion {
-    margin-bottom: 100px;
-  }
-  .seccion-informacion__titulo {
-    margin: 100px 0px 100px 0px;
-    text-align: center;
-    color: rgb(2, 165, 167);
-    font-weight: bold;
-  }
-
-  .seccion-informacion__contenedor-informacion-texto-primera-parte
-    .seccion-informacion__contenedor-informacion-texto-segunda-parte
-    .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-    text-align: justify;
-  }
-  .seccion-informacion__contenedor-informacion-texto-boton {
-    background-color: rgb(2, 165, 167);
-    border: none;
-    height: 50px;
-    width: 200px;
-    font-weight: bold;
-    justify-self: start;
-  }
-  .seccion-informacion-mapa {
-    margin-bottom: 330px;
-    margin: auto;
-  }
-  .informacion-mapa {
-    width: 500px;
-    height: 300px;
-  }
+  
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
@@ -986,35 +928,7 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .seccion-informacion {
-    margin-bottom: 100px;
-  }
-  .seccion-informacion__titulo {
-    margin: 100px 0px 100px 0px;
-    text-align: center;
-    color: rgb(2, 165, 167);
-    font-weight: bold;
-  }
-  .seccion-informacion__contenedor-informacion-texto-primera-parte
-    .seccion-informacion__contenedor-informacion-texto-segunda-parte
-    .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-    text-align: justify;
-  }
-  .boton-informacion {
-    justify-self: start;
-  }
-  .seccion-informacion__contenedor-informacion-texto-boton {
-    background-color: rgb(2, 165, 167);
-    border: none;
-    height: 50px;
-    width: 200px;
-    font-weight: bold;
-    justify-self: start;
-    margin-top: 30px;
-  }
-  .informacion-mapa {
-    width: 400px !important;
-  }
+  
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
@@ -1066,46 +980,7 @@ body {
 /* MEDIAQUERY TABLETS */
 /* MEDIAQUERY CELULARES TERCERA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
-  .seccion-informacion {
-    margin-bottom: 100px;
-  }
-  .seccion-informacion__titulo {
-    margin: 100px 0px 100px 0px;
-    text-align: center;
-    color: rgb(2, 165, 167);
-    font-weight: bold;
-  }
-
-  .boton-informacion {
-    display: flex;
-    justify-content: center;
-  }
-  .seccion-informacion-texto {
-    text-align: center;
-  }
-  .seccion-informacion__contenedor-informacion-texto-primera-parte
-    .seccion-informacion__contenedor-informacion-texto-segunda-parte
-    .seccion-informacion__contenedor-informacion-texto-tercera-parte {
-    text-align: center;
-  }
-  .seccion-informacion__contenedor-informacion-texto-boton {
-    background-color: rgb(2, 165, 167);
-    border: none;
-    height: 50px;
-    width: 200px;
-    font-weight: bold;
-    justify-self: start;
-  }
-  .seccion-informacion-mapa {
-    margin: 50px auto 200px auto;
-    display: flex;
-    justify-content: center;
-  }
-  .informacion-mapa {
-    position: absolute;
-    width: 300px !important;
-    height: 150px !important;
-  }
+  
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
