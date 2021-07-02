@@ -14,23 +14,25 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.btn {
+.botones {
   background-color: #02a5a7 !important;
   color: white !important;
   outline: none !important;
   border-radius: 10px;
+  width: 200px !important;
+  height: 39px !important;
 }
-.btn:hover {
+.botones:hover {
   background-color: #d9bb96 !important;
   color: white !important;
   border: none;
 }
-.btn:active {
+.botones:active {
   background-color: #d9bb96 !important;
   color: white !important;
   border: none;
 }
-.btn:focus {
+.botones:focus {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -76,18 +78,9 @@ body {
 .primera-seccion__presentacion {
   position: relative;
   z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding-top: 190px;
 }
@@ -117,15 +110,8 @@ body {
   margin-top: 20px;
 }
 .formulario-contacto-primera-seccion {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: 0px 0px 150px 0px;
 }
@@ -133,7 +119,7 @@ body {
 .formulario-contacto-primera-seccion__segundo-campo,
 .formulario-contacto-primera-seccion__tercer-campo {
   margin: 0px 10px 0px 0px;
-  width: 280px;
+  width: 250px;
 }
 .formulario-contacto-primera-seccion__boton-enviar {
   background-color: #03a6a6;
@@ -270,15 +256,16 @@ body {
 /* FIN SEGUNDA SECCION */
 
 /* INICIO TERCERA SECCION */
-.color-subtit{
-  color: rgb(2,165,167);
+.color-subtit {
+  margin-top: 50px;
+  color: rgb(2, 165, 167);
 }
 
-.boton-sabermas{
-  background-color: rgb(2,165,167) !important;
+.boton-sabermas {
+  background-color: rgb(2, 165, 167) !important;
 }
 
-.boton-sabermas:hover{
+.boton-sabermas:hover {
   background-color: rgb(217, 187, 150) !important;
   color: rgb(255, 255, 255) !important;
 }
@@ -289,6 +276,7 @@ body {
 .tercera-seccion-bis-imagen-buenavista {
   display: block;
   margin: auto;
+  padding-top: 100px;
 }
 .tercera-seccion-bis__titulo {
   text-align: center;
@@ -381,7 +369,6 @@ body {
   width: 200px;
   height: 50px;
   font-weight: bold;
-
   margin-top: 100px;
   background-color: #02a5a7;
   border: none;
@@ -527,6 +514,10 @@ body {
   background-color: #f1f2f2 !important;
   color: white;
   background-color: #1d2326 !important;
+}
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 .accordion-button:not(.collapsed) {
   color: white;
@@ -734,12 +725,12 @@ body {
   }
   .primera-seccion__presentacion-subtitulo {
     color: white;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
   }
   .primera-seccion__presentacion-titulo {
     color: #03a6a6;
-    font-size: 40px;
+    font-size: 35px;
   }
   .primera-seccion__presentacion-primer-parrafo {
     font-size: small;
@@ -887,7 +878,6 @@ body {
 
 /* MEDIAQUERY TABLETS TERCERA SECCION*/
 @media (min-width: 728px) and (max-width: 766px) {
-  
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
@@ -937,7 +927,6 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
@@ -989,7 +978,6 @@ body {
 /* MEDIAQUERY TABLETS */
 /* MEDIAQUERY CELULARES TERCERA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
-  
   .tercera-seccion-bis {
     margin: 50px 0px 100px 0px;
   }
@@ -1034,7 +1022,8 @@ body {
 
   .tercera-seccion-bis__contenedor-imagenes-foto-texto {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 17px;
   }
 }
@@ -1144,7 +1133,7 @@ body {
   .cuarta-seccion-amenities__boton {
     width: 200px;
     margin-top: 50px;
-    background-color: #02a5a7;
+    background-color: #02a5a7 !important;
     border: none;
   }
 }
@@ -1433,12 +1422,12 @@ body {
   }
   .seccion-formulario__subtitulo {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .seccion-formulario__formulario {
     margin: auto;
     width: 1000px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   .seccion-formulario__formulario-casilla {
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
@@ -1546,5 +1535,27 @@ body {
 .whatsapp-footer {
   margin-right: 10px;
   font-size: x-large;
+  color: white;
 }
 /* FIN FIXED BOTTOM */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .parallax {
+    height: 600px;
+    background-image: url(./img/parallax.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: none;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .parallax {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .parallax {
+    display: none;
+  }
+}
