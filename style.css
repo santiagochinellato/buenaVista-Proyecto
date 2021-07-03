@@ -1485,7 +1485,7 @@ body {
   .footer__menu {
     margin: auto;
   }
-  .nav-link {
+  .final-letra{
     font-size: 13px;
   }
   .footer__menu-ul {
@@ -1493,7 +1493,7 @@ body {
     flex-direction: column;
   }
 
-  .nav-item {
+  .final-pagina{
     text-align: center;
     width: 150px;
     height: 30px;
