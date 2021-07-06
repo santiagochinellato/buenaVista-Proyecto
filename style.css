@@ -1141,9 +1141,9 @@ body {
 
 /* INICIO MEDIA QUERIES QUINTA SECCION */
 /* MEDIAQUERIES CELULAR QUINTA SECCION */
-.bg-carrousel {
+/* .bg-carrousel {
   padding-top: 50px;
-}
+} */
 .titulo-carousel {
   text-align: center;
   margin-right: 20px;
@@ -1172,7 +1172,7 @@ body {
   background-color: rgb(217, 187, 150);
   width: 60px;
   height: 60px;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 .titulo-carousel {
   font-weight: bold;
@@ -1485,7 +1485,7 @@ body {
   .footer__menu {
     margin: auto;
   }
-  .final-letra{
+  .final-letra {
     font-size: 13px;
   }
   .footer__menu-ul {
@@ -1493,7 +1493,7 @@ body {
     flex-direction: column;
   }
 
-  .final-pagina{
+  .final-pagina {
     text-align: center;
     width: 150px;
     height: 30px;
