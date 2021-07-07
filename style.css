@@ -401,21 +401,21 @@ body {
   justify-content: center;
 }
 .seccion_inversores__cards-card {
-  width: 250px;
+  width: 350px;
   height: 300px;
-  margin: 0px 50px;
+  margin: 0px 30px;
 }
 
 .seccion_inversores__cards-card-numero {
   text-align: center;
   color: #02a5a7;
-  font-size: 150px;
+  font-size: 140px;
   font-weight: bold;
 }
 .seccion_inversores__cards-card-subtitulo {
   text-align: center;
   font-weight: bold;
-  width: 250px;
+  width: 350px;
 }
 
 /* FIN SEPTIMA SECCION */
@@ -1227,9 +1227,9 @@ body {
     justify-content: center;
   }
   .seccion_inversores__cards-card {
-    width: 180px;
+    width: 280px;
     height: 280px;
-    margin: 0px 30px;
+    margin: 0px 10px;
   }
 
   .seccion_inversores__cards-card-numero {
@@ -1240,7 +1240,7 @@ body {
   .seccion_inversores__cards-card-subtitulo {
     text-align: center;
     font-size: 13px;
-    width: 180px;
+    width: 280px;
   }
 }
 /* FIN TABLETS */
@@ -1270,7 +1270,7 @@ body {
     align-items: center;
   }
   .seccion_inversores__cards-card {
-    width: 200px;
+    width: 260px;
     height: 200px;
   }
 
@@ -1282,7 +1282,7 @@ body {
   .seccion_inversores__cards-card-subtitulo {
     text-align: center;
     font-size: 13px;
-    width: 200px;
+    width: 260px;
   }
 }
 /* FIN MEDIAQUERIES CELULAR SEPTIMA SECCION*/
