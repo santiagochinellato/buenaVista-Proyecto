@@ -37,6 +37,7 @@ body {
   box-shadow: none !important;
 }
 /* FIN RESETEO HTML */
+
 /* NAVBAR */
 .bg-menu {
   background-color: rgb(29, 35, 38);
@@ -68,6 +69,8 @@ body {
   background-color: #d9bb96;
   color: white !important;
 }
+
+/*  FIN NAVBAR */
 
 /* PRIMERA SECCION */
 .primera-seccion {
@@ -306,7 +309,6 @@ body {
 /* FIN CUARTA SECCION */
 
 /* INICIO QUINTA SECCION */
-/*  */
 .bg-carrousel {
   background-color: rgb(217, 187, 150);
 }
@@ -358,11 +360,6 @@ body {
 .seccion-tipologia__departamentos-card {
   margin: 50px 50px 0px 50px;
 }
-
-/* .seccion-tipologia__departamentos-card:hover {
-  transform: scale(1.3);
-  transition: 2s;
-} */
 
 .seccion-tipologia__departamentos-card-fotouno,
 .seccion-tipologia__departamentos-card-fotodos,
@@ -468,8 +465,6 @@ body {
   color: white;
   margin: 50px;
 }
-
-/* FIN MEDIAQUERIES */
 
 /* FIN OCTAVA SECCION */
 
@@ -579,9 +574,10 @@ body {
 }
 /* FIN FOOTER */
 
-/* AQUI COMIENZAN LOS MEDIAQUERYS DE LAS SECCIONES */
+/* AQUI COMIENZAN LOS MEDIAQUERIES DE LAS SECCIONES */
 
 /* MEDIAQUERIES MENU */
+
 /* INICIO MEDIAQUERIES TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
   .nav-link {
@@ -604,6 +600,7 @@ body {
 }
 
 /* FIN MEDIAQUERIES TABLETS */
+
 /* MEDIAQUERIES CELULAR  */
 @media (min-width: 320px) and (max-width: 767px) {
   .nav-link {
@@ -628,9 +625,11 @@ body {
   }
 }
 /* FIN MEDIAQUERIES CELULAR */
+
 /*  FIN MEDIAQUERIES MENU */
 
 /* MEDIAQUERY PRIMERA SECCION MODERNIDAD Y NATURALEZA*/
+
 /* MEDIAQUERY CELULARES  SEGUNDA SECCION  MODERNIDAD Y NATURALEZA*/
 @media (min-width: 320px) and (max-width: 767px) {
   .primera-seccion__presentacion-icono-whatsapp {
@@ -720,6 +719,7 @@ body {
   }
 }
 /* MEDIAQUERY CELULARES */
+
 /* MEDIAQUERY TABLETS SEGUNDA SECCION  MODERNIDAD Y NATURALEZA*/
 @media (min-width: 768px) and (max-width: 991px) {
   .primera-seccion {
@@ -801,6 +801,7 @@ body {
   }
 }
 /* MEDIAQUERY TABLETS */
+
 /* FIN MEDIAQUERY PRIMERA SECCION   MODERNIDAD Y NATURALEZA*/
 
 /* MEDIAQUERY TERCERA SECCION */
@@ -905,6 +906,7 @@ body {
   }
 }
 /* MEDIAQUERY TABLETS */
+
 /* MEDIAQUERY CELULARES TERCERA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
   .tercera-seccion-bis {
@@ -960,6 +962,7 @@ body {
 /* FIN MEDIAQUERY TERCERA SECCION */
 
 /*MEDIAQUERIES CUARTA SECCION */
+
 /*INICIO MEDIAQUERYS CUARTA SECCION*/
 @media (min-width: 768px) and (max-width: 991px) {
   .cuarta-seccion-amenities {
@@ -1012,6 +1015,7 @@ body {
   }
 }
 /* FIN MEDIA QUERIES TABLETS  CUARTA SECCION */
+
 /* MEDIAQUERIES CELULARES  CUARTA SECCION*/
 @media (min-width: 320px) and (max-width: 767px) {
   .cuarta-seccion-amenities {
@@ -1069,6 +1073,7 @@ body {
 /* FIN MEDIAQUERIES CELURARES CUARTA SECCIONES */
 
 /* INICIO MEDIA QUERIES QUINTA SECCION */
+
 /* MEDIAQUERIES CELULAR QUINTA SECCION */
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1082,10 +1087,11 @@ body {
 }
 
 /* FIN MEDIAQUERIES TABLET QUINTA SECCION */
+
 /* FIN MEDIAQUERIES QUINTA SECCION */
 
-/* FIN MEDIOAQUERIES QUINTA SECCION */
 /* INICIO MEDIAQUERIE SEXTA SECCION */
+
 /* MEDIAQUERIES TABLETS SEXTA SECCION */
 @media (min-width: 768px) and (max-width: 991px) {
   .seccion-tipologias {
@@ -1132,6 +1138,7 @@ body {
   }
 }
 /*  FIN MEDIAQUERIES TABLETS */
+
 /*INICIO SECCION MEDIAQUERIES CELULAR */
 @media (min-width: 320px) and (max-width: 767px) {
   .seccion-tipologias {
@@ -1175,9 +1182,11 @@ body {
   }
 }
 /* FIN SECCION MEDIAQUERIES CELULAR */
+
 /* FIN MEDIAQUERIES SEXTA SECCION CAROUSEL */
 
 /* INICIO MEDIAQUERIES INVERSORES */
+
 /* INICIO TABLETS MEDIAQUERIES SEPTIMA SECCION*/
 @media (min-width: 768px) and (max-width: 991px) {
   .seccion_inversores {
@@ -1218,6 +1227,7 @@ body {
   }
 }
 /* FIN TABLETS */
+
 /* MEDIAQUERIES CELULAR  SEPTIMA SECCION*/
 @media (min-width: 320px) and (max-width: 767px) {
   .seccion_inversores {
@@ -1259,9 +1269,11 @@ body {
   }
 }
 /* FIN MEDIAQUERIES CELULAR SEPTIMA SECCION*/
+
 /* FIN MEDIAQUERIES INVERSORES */
 
 /* INICIO MEDIAQUERIES OCTAVA SECCION */
+
 /* MEDIAQUERIES CELULAR OCTAVA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
   .seccion-preguntas__titulo {
@@ -1308,6 +1320,7 @@ body {
 /* FIN MEDIAQUERIES CELULAR  OCTAVA SECCION*/
 
 /* MEDIAQUERIE NOVENA SECCION */
+
 /* MEDIAQUERIES CELULAR NOVENA SECCION*/
 @media (min-width: 320px) and (max-width: 767px) {
   .seccion-formulario {
@@ -1361,6 +1374,7 @@ body {
 /* FIN MEDIAQUERIE NOVENA SECCION */
 
 /* MEDIAQUERIES FOOTER */
+
 /* MEDIAQUERIE CELULAR */
 @media (min-width: 320px) and (max-width: 767px) {
   .footer {
@@ -1407,6 +1421,7 @@ body {
   }
 }
 /* FIN MEDIAQUERIES CELULAR */
+
 /* FIN MEDIAQUERIES FOOTER */
 
 /* COMIENZO FIXED BOTTOM */
@@ -1461,7 +1476,6 @@ body {
 }
 
 /* PAGINA DE GRACIAS */
-/* PRIMERA SECCION */
 .primera-seccion {
   background-image: url(/img/puntadeleste.jpg);
   background-size: cover;
@@ -1474,8 +1488,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 190px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   letter-spacing: 1px;
 }
 .primera-seccion__presentacion-subtitulo {
@@ -1505,7 +1519,12 @@ body {
   border-color: #03a6a6;
   font-weight: bold;
 }
-/* FIN PRIMERA SECCION */
+
+/* FIN SECCION GRACIAS */
+
+/* INICIO MEDIAQUERIES PAGINA GRACIAS */
+
+/*  INICIO MEDIAQUERIES TABLET*/
 @media (min-width: 320px) and (max-width: 767px) {
   .primera-seccion {
     background-image: url(/img/puntadeleste.jpg);
@@ -1551,6 +1570,10 @@ body {
     font-weight: bold;
   }
 }
+
+/* FIN MEDIAQUERIES TABLETS */
+
+/* INICIO MEDIAQUERIES TABLETS */
 
 @media (min-width: 320px) and (max-width: 767px) {
   .primera-seccion {
@@ -1599,3 +1622,5 @@ body {
     font-weight: bold;
   }
 }
+
+/* FIN MEDIAQUERIES CELULAR */
