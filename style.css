@@ -1328,7 +1328,9 @@ body {
   }
   .accordion-body {
     color: white;
-    margin: 50px;
+    margin: 10px;
+    text-align: left;
+    font-size: 11px;
   }
   .seccion-formulario__icono-volver-inicio {
     display: none;
@@ -1590,7 +1592,7 @@ body {
 
 /* FIN MEDIAQUERIES TABLETS */
 
-/* INICIO MEDIAQUERIES TABLETS */
+/* INICIO MEDIAQUERIES CELULAR */
 
 @media (min-width: 320px) and (max-width: 767px) {
   .primera-seccion {
@@ -1641,3 +1643,67 @@ body {
 }
 
 /* FIN MEDIAQUERIES CELULAR */
+.flotante {
+  visibility: visible;
+  display: scroll;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #03a6a6;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  z-index: 100;
+}
+
+.flotante:hover {
+  background-color: #d9bb96 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .flotante {
+    visibility: visible;
+    display: scroll;
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: #03a6a6;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    z-index: 100;
+  }
+  .flotante:hover {
+    background-color: #d9bb96 !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .flotante {
+    visibility: visible;
+    display: scroll;
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: #03a6a6;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    z-index: 100;
+  }
+  .flotante:hover {
+    background-color: #d9bb96 !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+}
