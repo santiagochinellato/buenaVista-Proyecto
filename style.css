@@ -140,76 +140,6 @@ body {
   bottom: 80px;
   right: 40px;
 }
-/* .primera-seccion {
-  background-image: url(/img/puntadeleste.jpg);
-  background-size: cover;
-}
-
-.primera-seccion__presentacion {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 190px;
-}
-.primera-seccion__presentacion-subtitulo {
-  color: white;
-  font-size: 35px;
-  font-weight: bolder;
-}
-.primera-seccion__presentacion-titulo {
-  color: #03a6a6;
-  font-size: 70px;
-  font-weight: bold;
-}
-.primera-seccion__presentacion-primer-parrafo {
-  font-size: small;
-  color: white;
-  width: 360px;
-  text-align: center;
-  margin: 0px;
-}
-.primera-seccion__presentacion-segundo-parrafo {
-  font-weight: bold;
-  font-size: x-small;
-  color: white;
-  width: 500px;
-  text-align: center;
-  margin-top: 20px;
-}
-.formulario-contacto-primera-seccion {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0px 0px 150px 0px;
-}
-.formulario-contacto-primera-seccion__primer-campo,
-.formulario-contacto-primera-seccion__segundo-campo,
-.formulario-contacto-primera-seccion__tercer-campo {
-  margin: 0px 10px 0px 0px;
-  width: 280px;
-}
-.formulario-contacto-primera-seccion__boton-enviar {
-  background-color: #03a6a6;
-  border-color: #03a6a6;
-  font-weight: bold;
-}
-.primera-seccion__presentacion-icono-whatsapp {
-  font-size: 30px;
-  background-color: #1d2326;
-  color: white;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  padding-top: 10px;
-  border-radius: 50%;
-  position: relative;
-  float: right;
-  bottom: 80px;
-  right: 40px;
-} */
 
 /* FIN PRIMERA SECCION */
 
@@ -1141,46 +1071,17 @@ body {
 
 /* INICIO MEDIA QUERIES QUINTA SECCION */
 /* MEDIAQUERIES CELULAR QUINTA SECCION */
-/* .bg-carrousel {
-  padding-top: 50px;
-} */
-.titulo-carousel {
-  text-align: center;
-  margin-right: 20px;
-  margin: 50px 0px 50px 0px !important;
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgb(217, 187, 150);
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 100px;
+  }
 }
 
-.texto-carousel {
-  text-align: justify;
-}
-/* MEDIAQUERIES CELULAR QUINTA SECCION */
-/* MEDIAQUERIES TABLET QUINTA SECCION */
-.bg-carrousel {
-  background-color: rgb(217, 187, 150);
-}
-
-.color-unidades {
-  color: rgb(255, 255, 255);
-}
-
-.indicador {
-  background-color: rgb(217, 187, 150) !important;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgb(217, 187, 150);
-  width: 60px;
-  height: 60px;
-  margin-top: 100px;
-}
-.titulo-carousel {
-  font-weight: bold;
-  text-align: center;
-}
-.texto-carousel {
-  width: auto;
-}
 /* FIN MEDIAQUERIES TABLET QUINTA SECCION */
 /* FIN MEDIAQUERIES QUINTA SECCION */
 
@@ -1557,5 +1458,145 @@ body {
 @media (min-width: 320px) and (max-width: 767px) {
   .parallax {
     display: none;
+  }
+}
+
+/* PAGINA DE GRACIAS */
+/* PRIMERA SECCION */
+.primera-seccion {
+  background-image: url(/img/puntadeleste.jpg);
+  background-size: cover;
+}
+
+.primera-seccion__presentacion-gracias {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 190px;
+  padding-bottom: 200px;
+  letter-spacing: 1px;
+}
+.primera-seccion__presentacion-subtitulo {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.primera-seccion__presentacion-titulo {
+  color: #03a6a6;
+  font-size: 70px;
+  font-weight: bold;
+}
+.primera-seccion__presentacion-mensaje-gracias {
+  color: white;
+  font-size: 35px !important;
+  font-weight: bolder;
+  margin-top: 35px;
+  width: 70%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.formulario-contacto-primera-seccion__boton-enviar-gracias {
+  margin-top: 35px;
+  background-color: #03a6a6;
+  border-color: #03a6a6;
+  font-weight: bold;
+}
+/* FIN PRIMERA SECCION */
+@media (min-width: 320px) and (max-width: 767px) {
+  .primera-seccion {
+    background-image: url(/img/puntadeleste.jpg);
+    background-size: cover;
+  }
+
+  .primera-seccion__presentacion-gracias {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    letter-spacing: 1px;
+  }
+  .primera-seccion__presentacion-subtitulo {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .primera-seccion__presentacion-titulo {
+    color: #03a6a6;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .primera-seccion__presentacion-mensaje-gracias {
+    color: white;
+    font-size: 35px !important;
+    font-weight: bolder;
+    margin-top: 35px;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .formulario-contacto-primera-seccion__boton-enviar-gracias {
+    margin-top: 35px;
+    background-color: #03a6a6;
+    border-color: #03a6a6;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .primera-seccion {
+    background-image: url(/img/puntadeleste.jpg);
+    background-size: cover;
+  }
+
+  .primera-seccion__presentacion-gracias {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    letter-spacing: 1px;
+  }
+  .primera-seccion__presentacion-subtitulo {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .primera-seccion__presentacion-titulo {
+    color: #03a6a6;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .primera-seccion__presentacion-mensaje-gracias {
+    color: white;
+    font-size: 20px !important;
+    font-weight: bolder;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .formulario-contacto-primera-seccion__boton-enviar-gracias {
+    margin-top: 35px;
+    background-color: #03a6a6;
+    border-color: #03a6a6;
+    font-weight: bold;
   }
 }
