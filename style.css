@@ -401,21 +401,21 @@ body {
   justify-content: center;
 }
 .seccion_inversores__cards-card {
-  width: 350px;
+  width: 300px;
   height: 300px;
-  margin: 0px 30px;
+  margin: 0px 10px;
 }
 
 .seccion_inversores__cards-card-numero {
   text-align: center;
   color: #02a5a7;
-  font-size: 140px;
+  font-size: 120px;
   font-weight: bold;
 }
 .seccion_inversores__cards-card-subtitulo {
   text-align: center;
   font-weight: bold;
-  width: 350px;
+  width: 300px;
 }
 
 /* FIN SEPTIMA SECCION */
@@ -1227,20 +1227,20 @@ body {
     justify-content: center;
   }
   .seccion_inversores__cards-card {
-    width: 280px;
+    width: 250px;
     height: 280px;
-    margin: 0px 10px;
+    margin: 0px 0px;
   }
 
   .seccion_inversores__cards-card-numero {
     text-align: center;
     color: #02a5a7;
-    font-size: 100px;
+    font-size: 80px;
   }
   .seccion_inversores__cards-card-subtitulo {
     text-align: center;
     font-size: 13px;
-    width: 280px;
+    width: 250px;
   }
 }
 /* FIN TABLETS */
