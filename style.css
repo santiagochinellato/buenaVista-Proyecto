@@ -634,7 +634,7 @@ body {
 /* MEDIAQUERY CELULARES  SEGUNDA SECCION  MODERNIDAD Y NATURALEZA*/
 @media (min-width: 320px) and (max-width: 767px) {
   .primera-seccion__presentacion-icono-whatsapp {
-    display: none;
+    display: none !important;
   }
   .primera-seccion {
     background-image: url(/img/puntadeleste.jpg) center center cover no-repeat
@@ -1085,8 +1085,25 @@ body {
     height: 40px !important;
     margin-top: 100px;
   }
+  .titulo-carousel {
+    text-align: center;
+    margin-right: 50px;
+  }
+  .texto-carousel {
+    text-align: center;
+  }
 }
-
+@media (min-width: 768px) and (max-width: 991px) {
+  .titulo-carousel {
+    text-align: center;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+  .texto-carousel {
+    text-align: center;
+  }
+}
 /* FIN MEDIAQUERIES TABLET QUINTA SECCION */
 
 /* FIN MEDIAQUERIES QUINTA SECCION */
