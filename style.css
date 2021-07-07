@@ -150,17 +150,16 @@ body {
 
 .bg-seccion2 {
   background: rgb(3, 166, 166);
-  margin: 0px;
 }
 
-.color-letra-titulo {
+.color-letradetitulo {
   color: white;
   font-size: 200%;
   font-weight: bold;
   margin: 100px 0px 50px 0px;
 }
 
-.color-letra-texto {
+.color-letradetexto {
   color: white;
   font-size: 160%;
   line-height: 40px;
