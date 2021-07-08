@@ -54,6 +54,7 @@ body {
   color: white !important;
   border-radius: 10px;
   height: 39px;
+  font-size: 15px;
 }
 
 .botonmenu:hover {
@@ -574,6 +575,11 @@ body {
 
 .footer__caja-telefono {
   color: white;
+  text-decoration: none;
+}
+
+.footer__caja-telefono:hover {
+  color: white;
 }
 .footer__menu {
   margin: 20px 0px;
@@ -602,6 +608,10 @@ body {
 .krak {
   text-decoration: none;
   color: #d9bb96;
+}
+.final-letra:hover {
+  text-decoration: none;
+  color: white;
 }
 /* FIN FOOTER */
 
@@ -1469,6 +1479,7 @@ body {
   .final-letra {
     font-size: 13px;
   }
+
   .footer__menu-ul {
     display: flex;
     flex-direction: column;
