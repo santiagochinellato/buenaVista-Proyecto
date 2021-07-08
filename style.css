@@ -167,7 +167,9 @@ body {
 /* FIN PRIMERA SECCION */
 
 /* SEGUNDA SECCION */
-
+.segunda-seccion {
+  background: rgb(3, 166, 166);
+}
 .bg-seccion2 {
   background: rgb(3, 166, 166);
 }
