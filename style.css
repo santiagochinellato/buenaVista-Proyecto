@@ -43,6 +43,11 @@ body {
   background-color: rgb(29, 35, 38);
 }
 
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
 .botonmenu {
   background-color: #02a5a7;
   color: white !important;
@@ -1494,6 +1499,11 @@ body {
 
 .color-boton:hover {
   background-color: #d9bb96;
+}
+
+.color-boton:focus{
+  outline: none;
+  box-shadow: none;
 }
 
 .color-letra {
