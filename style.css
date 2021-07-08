@@ -43,13 +43,13 @@ body {
   background-color: rgb(29, 35, 38);
 }
 
-.botonmenu{
+.botonmenu {
   background-color: #02a5a7;
   color: white !important;
 }
 
-.botonmenu:hover{
-  background-color: #d9bb96 ;
+.botonmenu:hover {
+  background-color: #d9bb96;
   color: white !important;
 }
 
@@ -164,14 +164,14 @@ body {
 
 .color-letradetitulo {
   color: white;
-  font-size: 200%;
+  font-size: 32px;
   font-weight: bold;
   margin: 100px 0px 50px 0px;
 }
 
 .color-letradetexto {
   color: white;
-  font-size: 160%;
+  font-size: 20px;
   line-height: 40px;
   font-weight: inherit;
   margin-bottom: 50px;
@@ -413,19 +413,32 @@ body {
 .seccion_inversores__cards-card {
   width: 300px;
   height: 300px;
-  margin: 0px 10px;
+  margin: 0px 0px;
 }
-
+.seccion-inversores__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
 .seccion_inversores__cards-card-numero {
   text-align: center;
   color: #02a5a7;
-  font-size: 115px;
+  font-size: 90px;
   font-weight: bold;
+}
+
+.seccion-inversores__icono {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
 }
 .seccion_inversores__cards-card-subtitulo {
   text-align: center;
   font-weight: bold;
   width: 300px;
+  margin-top: 30px;
 }
 
 /* FIN SEPTIMA SECCION */
@@ -665,22 +678,26 @@ body {
     color: white;
     font-size: 23px;
     text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0px;
   }
   .primera-seccion__presentacion-titulo {
     color: #03a6a6;
     font-size: 35px;
+    margin-top: 5px !important;
+    margin-bottom: 10px;
   }
   .primera-seccion__presentacion-primer-parrafo {
-    font-size: small;
+    font-size: 12px;
     color: white;
-    width: 300px;
+    width: 100%;
     text-align: center;
   }
   .primera-seccion__presentacion-segundo-parrafo {
     font-weight: bold;
-    font-size: x-small;
+    font-size: 12pxl;
     color: white;
-    width: 200px;
+    width: 250px;
     text-align: center;
   }
   .formulario-contacto-primera-seccion {
@@ -1245,12 +1262,18 @@ body {
   .seccion_inversores__cards-card-numero {
     text-align: center;
     color: #02a5a7;
-    font-size: 80px;
+    font-size: 74px;
   }
   .seccion_inversores__cards-card-subtitulo {
     text-align: center;
     font-size: 13px;
     width: 250px;
+  }
+
+  .seccion-inversores__icono {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
   }
 }
 /* FIN TABLETS */
@@ -1287,12 +1310,17 @@ body {
   .seccion_inversores__cards-card-numero {
     text-align: center;
     color: #02a5a7;
-    font-size: 100px;
+    font-size: 80px;
   }
   .seccion_inversores__cards-card-subtitulo {
     text-align: center;
     font-size: 13px;
     width: 260px;
+  }
+  .seccion-inversores__icono {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
   }
 }
 /* FIN MEDIAQUERIES CELULAR SEPTIMA SECCION*/
@@ -1460,6 +1488,8 @@ body {
 
 .color-boton {
   background-color: rgb(2, 165, 167);
+  border-radius: 10px;
+  height: 39px;
 }
 
 .color-boton:hover {
@@ -1470,6 +1500,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: small;
   text-decoration: none !important;
+  align-items: center;
 }
 
 .color-letra:hover {
@@ -1478,7 +1509,7 @@ body {
 
 .whatsapp-footer {
   margin-right: 10px;
-  font-size: x-large;
+  font-size: large;
   color: white;
 }
 /* FIN FIXED BOTTOM */
@@ -1495,12 +1526,17 @@ body {
 
 @media (min-width: 767px) and (max-width: 991px) {
   .parallax {
-    display: none;
+    background-image: url(./img/parallax-tablets.jpg);
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .parallax {
-    display: none;
+    height: 300px;
+    background-image: url(./img/parallax-celulares.jpg);
+    background-size: cover;
+    background-attachment: initial;
   }
 }
 
