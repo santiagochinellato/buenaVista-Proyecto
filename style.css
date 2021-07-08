@@ -43,6 +43,16 @@ body {
   background-color: rgb(29, 35, 38);
 }
 
+.botonmenu{
+  background-color: #02a5a7;
+  color: white !important;
+}
+
+.botonmenu:hover{
+  background-color: #d9bb96 ;
+  color: white !important;
+}
+
 .nav-link-bg-color {
   background-color: #02a5a7;
   border-radius: 10px;
