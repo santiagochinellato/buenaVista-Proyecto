@@ -589,6 +589,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 14px;
 }
 .footer__redes-sociales-facebook {
   margin-top: 50px;
@@ -604,10 +605,12 @@ body {
 }
 .pie-de-pagina {
   color: white;
+  font-size: 14px;
 }
 .krak {
   text-decoration: none;
-  color: #d9bb96;
+  color: #02a5a7;
+  font-size: 14px;
 }
 .final-letra:hover {
   text-decoration: none;
@@ -706,16 +709,16 @@ body {
     margin-bottom: 10px;
   }
   .primera-seccion__presentacion-primer-parrafo {
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     width: 100%;
     text-align: center;
   }
   .primera-seccion__presentacion-segundo-parrafo {
     font-weight: bold;
-    font-size: 12pxl;
+    font-size: 13px;
     color: white;
-    width: 250px;
+    width: 300px;
     text-align: center;
   }
   .formulario-contacto-primera-seccion {
@@ -954,27 +957,29 @@ body {
 
 /* MEDIAQUERY CELULARES TERCERA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
+  .color-subtit {
+    margin-top: 50px;
+    color: rgb(2, 165, 167);
+    font-size: 22px;
+  }
+  .texto-informacion {
+    font-size: 14px;
+  }
   .tercera-seccion-bis {
-    margin: 50px 0px 100px 0px;
+    margin: 50px 0px 50px 0px;
   }
   .tercera-seccion-bis-imagen-buenavista {
     display: block;
     margin: auto;
   }
-  .tercera-seccion-bis__titulo {
-    text-align: center;
-    color: rgb(217, 187, 150);
-    font-size: 150px;
-    margin: 100px 0px 50px 0px;
-    font-weight: bold;
-    font-family: "akkurat-bold";
-    letter-spacing: 15px !important;
-  }
 
   .tercera-seccion-bis__texto {
     text-align: center;
+    font-size: 14px;
   }
-
+  .tercera-seccion-bis-imagen-buenavista {
+    padding-top: 50px;
+  }
   .tercera-seccion-bis__contenedor-imagenes {
     display: flex;
     justify-content: space-evenly;
@@ -1082,6 +1087,8 @@ body {
     text-align: center;
     margin: 0px 20px 0px 20px;
     width: auto;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .cuarta-seccion-amenities__contendedor-cards {
@@ -1107,6 +1114,7 @@ body {
   .cuarta-seccion-amenities__contendedor-card-texto {
     text-align: center;
     margin: 10px;
+    font-size: 14px;
   }
   .cuarta-seccion-amenities__boton {
     width: 200px;
@@ -1135,6 +1143,7 @@ body {
   }
   .texto-carousel {
     text-align: center;
+    font-size: 14px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1214,6 +1223,7 @@ body {
   .seccion-tipologias__texto {
     text-align: center;
     margin-top: 30px;
+    font-size: 14px;
   }
 
   .seccion-tipologia__departamentos {
@@ -1313,6 +1323,7 @@ body {
   .seccion_inversores__subtitulo {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 14px;
   }
 
   .seccion_inversores__cards {
@@ -1367,7 +1378,7 @@ body {
   .accordion-button {
     background-color: #f1f2f2 !important;
     color: white;
-    font-size: 11px;
+    font-size: 14px;
     background-color: #1d2326 !important;
   }
   .accordion-button:not(.collapsed) {
@@ -1388,7 +1399,7 @@ body {
     color: white;
     margin: 10px;
     text-align: left;
-    font-size: 11px;
+    font-size: 14px;
   }
   .seccion-formulario__icono-volver-inicio {
     display: none;
@@ -1412,15 +1423,18 @@ body {
   }
   .seccion-formulario__subtitulo {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    font-size: 14px;
   }
   .seccion-formulario__formulario {
     margin: auto;
     width: 1000px;
     padding-bottom: 50px;
+    margin-top: 50px;
   }
   .seccion-formulario__formulario-casilla {
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+    font-size: 14px;
   }
   .seccion-formularios__formulario-boton {
     width: 100px;
@@ -1563,6 +1577,32 @@ body {
     background-image: url(./img/parallax-celulares.jpg);
     background-size: cover;
     background-attachment: initial;
+  }
+  .color-letradetitulo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .color-letradetexto {
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    padding: 0;
+  }
+
+  .bg-boton1 {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(2, 165, 167) !important;
+    font-size: 100%;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin: 25px 0px 50px 0px;
+    font-weight: bold;
   }
 }
 
