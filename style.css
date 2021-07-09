@@ -23,14 +23,13 @@ body {
   height: 39px !important;
 }
 .botones:hover {
-  background-color: #d9bb96 !important;
-  color: white !important;
-  border: none;
+  background-color: white !important;
+  color: #02a5a7 !important;
+  border: 1px solid#02a5a7;
 }
 .botones:active {
-  background-color: #d9bb96 !important;
-  color: white !important;
-  border: none;
+  background-color: white !important;
+  color: #02a5a7 !important;
 }
 .botones:focus {
   outline: none !important;
@@ -183,7 +182,7 @@ body {
 
 .color-letradetexto {
   color: white;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 30px;
   font-weight: inherit;
   margin-bottom: 50px;
@@ -220,11 +219,18 @@ body {
 }
 .boton-sabermas {
   background-color: rgb(2, 165, 167) !important;
+  border: #02a5a7;
 }
 
 .boton-sabermas:hover {
-  background-color: rgb(217, 187, 150) !important;
-  color: rgb(255, 255, 255) !important;
+  background-color: white !important;
+  color: #02a5a7 !important;
+  border: 1px solid#02a5a7 !important;
+}
+.boton-sabermas:active {
+  background-color: white !important;
+  color: #02a5a7 !important;
+  border: #02a5a7 !important;
 }
 
 .tercera-seccion-bis {
@@ -268,13 +274,12 @@ body {
 .tercera-seccion-bis__contenedor-imagenes-foto {
   width: 200px;
   height: 200px;
-  border-radius: 5%;
 }
 
 .tercera-seccion-bis__contenedor-imagenes-foto-texto {
   text-align: center;
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 /* FIN TERCERA SECCION */
@@ -351,9 +356,9 @@ body {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgb(217, 187, 150);
-  width: 60px;
-  height: 60px;
-  margin-top: 130px;
+  width: 50px;
+  height: 50px;
+  margin-top: 250px;
 }
 .titulo-carousel {
   font-weight: bold;
@@ -452,7 +457,7 @@ body {
 .seccion-inversores__icono {
   width: 70px;
   height: 70px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .seccion_inversores__cards-card-subtitulo {
   text-align: center;
@@ -541,16 +546,20 @@ body {
   flex-direction: row;
   align-items: center;
 }
+::placeholder {
+  color: black !important;
+  font-size: 14px;
+  font-weight: 500;
+}
 .seccion-formulario__formulario-casilla {
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
 }
 .seccion-formularios__formulario-boton {
-  width: 100px;
+  width: 100px !important;
   background-color: #02a5a7;
   border: none;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
   font-weight: bold;
-  width: 100px;
 }
 .seccion-formulario__icono-volver-inicio {
   background-color: #02a5a7;
@@ -570,14 +579,14 @@ body {
 /* INICIO FOOTER */
 .footer {
   background-color: #1d2326;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .footer__caja {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 400px;
-  padding: 100px 0px 50px 0px;
+  height: 350px;
+  padding: 70px 0px 50px 0px;
   align-items: center;
 }
 
@@ -725,7 +734,7 @@ body {
     margin-bottom: 10px;
   }
   .primera-seccion__presentacion-primer-parrafo {
-    font-size: 14px;
+    font-size: 12px;
     color: white;
     width: 100%;
     text-align: center;
@@ -1447,7 +1456,7 @@ body {
 
   .seccion-formulario__titulo {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     color: #02a5a7;
     margin-bottom: 30px;
   }
@@ -1458,9 +1467,9 @@ body {
   }
   .seccion-formulario__formulario {
     margin: auto;
-    width: 1000px;
-    padding-bottom: 50px;
-    margin-top: 50px;
+    width: 90%;
+    padding-bottom: 20px;
+    margin-top: 30px;
   }
   .seccion-formulario__formulario-casilla {
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
@@ -1468,7 +1477,7 @@ body {
   }
   .seccion-formularios__formulario-boton {
     width: 100px;
-    margin: 50px auto;
+    margin: 10px auto;
     background-color: #02a5a7;
     border: none;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
@@ -1505,8 +1514,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
     align-items: center;
+    height: 250px;
   }
 
   .footer__caja-logo {
@@ -1516,30 +1526,29 @@ body {
 
   .footer__caja-telefono {
     color: white;
+    font-weight: bold;
+    font-size: 14px;
   }
   .footer__menu {
-    margin: auto;
+    margin: 10px 0px 20px 0px;
   }
   .final-letra {
-    font-size: 13px;
+    font-size: 12px;
+    margin: 2px 2px 2px 2px !important;
+    width: 110px;
+    padding: 0px;
   }
 
   .footer__menu-ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .final-pagina {
+    width: 110px;
+    height: 10px;
     text-align: center;
-    width: 150px;
-    height: 30px;
-  }
-
-  .footer__redes-sociales-insta,
-  .footer__redes-sociales-facebook {
-    color: #02a5a7;
-    font-size: 30px;
-    margin: 0px 10px;
   }
 }
 /* FIN MEDIAQUERIES CELULAR */
@@ -1579,7 +1588,7 @@ body {
 
 .whatsapp-footer {
   margin-right: 10px;
-  font-size: large;
+  font-size: 14px;
   color: white;
 }
 /* FIN FIXED BOTTOM */
