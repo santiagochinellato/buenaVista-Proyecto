@@ -14,7 +14,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
     rel="stylesheet">
-
   <script src="https://kit.fontawesome.com/486ffa3d02.js" crossorigin="anonymous"></script>
   <script src=”prefixfree.min.js” type="text/javascript"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -29,10 +28,10 @@
           <img src="img/logo.png" alt="logo-buenavista" width="300" class="logo-navbar" id="inicio">
         </a>
 
-        <button class="navbar-toggler botonmenu mb-2" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler botonmenu mb-2 mt-1" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">MENU
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon lineasboton"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -101,7 +100,7 @@
           a
           bosque y la brisa del mar.
         </p>
-        <button type="button" class="btn btn-primary w-auto bg-boton1 botones" data-aos="zoom-in"
+        <button type="button" class="btn btn-primary w-auto bg-boton1" data-aos="zoom-in"
           onclick="location.href='#formulario'">Quiero
           saber
           más</button>
@@ -116,36 +115,37 @@
   <!-- INICIO TERCERA SECCION INFORMACION -->
 
   <div class="container" id="ubicacion">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-12 text-center">
         <h2 class="color-subtit"><b>¿Hay algo más lindo que vivir cerca del mar?</b></h2>
       </div>
     </div>
+
     <div class="row mt-5">
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text-center">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
         <p class="texto-informacion">La tendencia hacia la búsqueda de propiedades en entornos más saludables y que
           garanticen una mejor calidad
           de vida se ha disparado en los últimos años.</p>
         <p class="texto-informacion">Nuestro edificio en Punta del Este conquista con su ubicación. Entre sus
-          principales ventajas está la de
-          encontrarte con la playa y la inmensidad del mar con sólo caminar unos pasos, dar un paseo por la Av. gorlero
+          principales ventajas está la de encontrarte con la playa  y la inmensidad del mar con sólo caminar unos pasos, dar un paseo por la Av. gorlero
           y disfrutar de su variada propuesta gastronómica o contemplar la puesta de sol en el puerto de yates.</p>
-        <p class="texto-informacion"> <b>Vas a vivir en un lugar que te ofrece seguridad y bienestar, en un entorno
+        <p class="texto-informacion"><b>Vas a vivir en un lugar que te ofrece seguridad y bienestar, en un entorno
             natural que integra mar, verde
             y ciudad.</b></p>
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-3  m-0 text-center justify-content-center">
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.141422556478!2d-54.896920684761696!3d-34.927989980376665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzQwLjgiUyA1NMKwNTMnNDEuMCJX!5e0!3m2!1ses-419!2sar!4v1625606041082!5m2!1ses-419!2sar"
-          width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
+          class="mapaedit" allowfullscreen="" loading="lazy"></iframe>
       </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-12 m-0 text-center justify-content-center">
+
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 col-xxl-1 text-center justify-content-center mt-2">
         <button type="button" class="btn boton-sabermas botones" onclick="location.href='#formulario'"><b>Quiero saber
             más</b></button>
       </div>
     </div>
+   
   </div>
 
   <div class="container-fluid">
@@ -517,20 +517,20 @@
   <!-- COMIENZO FIXED BOTTOM -->
   <div class="fixed-bottom container-fluid">
     <div class="row fondo-footer justify-content align-items-center">
-      <div class="col-6 d-lg-none mb-4 mt-4">
+      <div class="col-6 d-lg-none mb-1 mt-4">
         <div class="d-grid gap-2">
-          <button class="btn color-boton" type="button"><a href="#formulario" class="color-letra">Quiero más
-              Info</a></button>
+          <button class="btn color-boton-info color-letra-info" type="button" onclick="location.href='#formulario'" class="color-letra-info"><a href="#formulario" ></a>Quiero más Info</button>
         </div>
       </div>
 
-      <div class="col-6 d-lg-none mb-4 mt-4">
+      <div class="col-6 d-lg-none mb-1 mt-4">
         <div class="d-grid gap-2">
-          <button class="btn color-boton" type="button"><i class="fab fa-whatsapp whatsapp-footer"></i><a
-              href="https://api.whatsapp.com/send?phone=543537565328" class="color-letra"
-              target="_blank">WhatsApp</a></button>
+          <button class="btn color-boton-wpp color-letra" type="button" onclick="location.href='https:/api.whatsapp.com/send?phone=543537565328'"  target="_blank"><i class="fab fa-whatsapp whatsapp-footer"></i>WhatsApp</button>
         </div>
       </div>
+      <div class="col-4 d-lg-none colorbarra"></div>
+      <div class="col-4 d-lg-none barrafooter"></div>
+      <div class="col-4 d-lg-none colorbarra"></div>
     </div>
   </div>
   <!-- FIN FIXED BOTTOM -->
