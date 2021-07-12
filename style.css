@@ -701,7 +701,7 @@ body {
   .nav-link-color-letra-contacto {
     color: white !important;
     font-size: 15px;
-    width: 120px;
+    width: 500px;
     text-align: center;
     margin-right: 10%;
   }
@@ -722,12 +722,12 @@ body {
     width: 150px;
   }
   .nav-item {
-    width: 100px;
+    width: 330px;
   }
   .nav-link-color-letra-contacto {
     color: white !important;
     font-size: 15px;
-    width: 120px;
+    width: 330px;
     text-align: center;
     margin-right: 10%;
   }
@@ -1891,8 +1891,8 @@ body {
 }
 
 .flotante:hover {
-  background-color: #d9bb96 !important;
-  color: white !important;
+  background-color: white !important;
+  color: #02a5a7 !important;
   text-decoration: none !important;
 }
 
@@ -1912,8 +1912,8 @@ body {
     z-index: 100;
   }
   .flotante:hover {
-    background-color: #d9bb96 !important;
-    color: white !important;
+    background-color: white !important;
+    color: #02a5a7 !important;
     text-decoration: none !important;
   }
 }
@@ -1934,8 +1934,9 @@ body {
     z-index: 100;
   }
   .flotante:hover {
-    background-color: #d9bb96 !important;
-    color: white !important;
+    background-color: white !important;
+    color: #02a5a7 !important;
     text-decoration: none !important;
   }
 }
+
