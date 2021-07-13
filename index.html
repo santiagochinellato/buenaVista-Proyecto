@@ -36,12 +36,16 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra" href="#ubicacion">Ubicación </a></li>
-            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra" href="#departamentos">Departamentos</a>
+            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra" href="#ubicacion">Ubicación
+              </a></li>
+            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra"
+                href="#departamentos">Departamentos</a>
             </li>
-            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra" href="#nosotros">Nosotros</a></li>
-            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 p-2 nav-link-color-letra-contacto nav-link-bg-color"
-                href="#contacto">Contacto</a></li>
+            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra"
+                href="#nosotros">Nosotros</a></li>
+            <li class="nav-item w-auto mx-auto"><a
+                class="nav-link m-3 p-2 nav-link-color-letra-contacto nav-link-bg-color" href="#contacto">Contacto</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -66,20 +70,23 @@
       <p class="primera-seccion__presentacion-segundo-parrafo">Queremos conocerte. Dejanos tus
         datos y te contamos más
         sobre el proyecto.</p>
-      <div class="formulario-contacto-primera-seccion">
+      <form class="formulario-contacto-primera-seccion" id="contactForm" name="sentMessage" class="needs-validation"
+        novalidate>
+
         <div class="formulario-contacto-primera-seccion__primer-campo">
-          <input type="email" class="form-control form-header" id="exampleFormControlInput1"
-            placeholder="Nombre completo">
+          <input type="text" class="form-control form-header" id="name" placeholder="Nombre completo"
+            required="required" data-validation-required-message="Por favor ingrese su nombre.">
         </div>
         <div class="formulario-contacto-primera-seccion__segundo-campo">
-          <input type="email" class="form-control form-header" id="exampleFormControlInput1" placeholder="Email">
+          <input type="email" class="form-control form-header" id="email" placeholder="Email" required="required"
+            data-validation-required-message="Por favor ingrese un email valido.">
         </div>
         <div class="formulario-contacto-primera-seccion__tercer-campo">
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+          <input type="text" class="form-control" id="phone" placeholder="Teléfono">
         </div>
         <button type="button" class="btn formulario-contacto-primera-seccion__boton-enviar botones"
-          onclick="location.href='./gracias.html'">Empezar</button>
-      </div>
+          id="sendMessageButton">Empezar</button>
+      </form>
     </div>
     <a href="https://api.whatsapp.com/send?phone=5493537565328" target="_blank">
       <i class="fab fa-whatsapp primera-seccion__presentacion-icono-whatsapp">
@@ -127,7 +134,8 @@
           garanticen una mejor calidad
           de vida se ha disparado en los últimos años.</p>
         <p class="texto-informacion">Nuestro edificio en Punta del Este conquista con su ubicación. Entre sus
-          principales ventajas está la de encontrarte con la playa  y la inmensidad del mar con sólo caminar unos pasos, dar un paseo por la Av. gorlero
+          principales ventajas está la de encontrarte con la playa y la inmensidad del mar con sólo caminar unos pasos,
+          dar un paseo por la Av. gorlero
           y disfrutar de su variada propuesta gastronómica o contemplar la puesta de sol en el puerto de yates.</p>
         <p class="texto-informacion"><b>Vas a vivir en un lugar que te ofrece seguridad y bienestar, en un entorno
             natural que integra mar, verde
@@ -145,7 +153,7 @@
             más</b></button>
       </div>
     </div>
-   
+
   </div>
 
   <div class="container-fluid">
@@ -233,7 +241,7 @@
     <div class="row justify-content-center align-items-center bg-carrousel pt-0">
       <div class="col-sm-12 col-md-12 col-lg-6">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <!-- <div class="carousel-indicators">
+          <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
               class="active indicador" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
@@ -248,7 +256,7 @@
               class="indicador"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"
               class="indicador"></button>
-          </div> -->
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/renders/03COCINA.jpg" class="d-block w-100" alt="Cocina">
@@ -448,41 +456,46 @@
 
   <!-- INICIO NOVENA SECCION FORMULARIO -->
   <div class="container-fluid" id="contacto">
-    <section class=" row seccion-formulario">
+    <form class=" row seccion-formulario" id="contactForm" name="sentMessage" novalidate>
       <h2 class="seccion-formulario__titulo">Contacto</h2>
       <p class="seccion-formulario__subtitulo" id="formulario">¿Querés saber más sobre el proyecto?
         Dejanos tus datos
         y
         te llamamos en
         breve.</p>
-      <div class="row seccion-formulario__formulario">
-        <div class="mb-3 col-md-4 ">
+      <div class="row form-row seccion-formulario__formulario">
+        <div class="mb-3 col-md-4 form-group ">
           <label for="exampleFormControlInput1" class="form-label"></label>
-          <input type="email" class="form-control seccion-formulario__formulario-casilla" id="exampleFormControlInput1"
-            placeholder="Nombre  completo">
+          <input type="text" class="form-control seccion-formulario__formulario-casilla" id="name" required="required"
+            data-validation-required-message="Por favor ingrese su nombre." placeholder="Nombre  completo">
+          <p class="help-block text-danger"></p>
         </div>
-        <div class="mb-3 col-md-4">
+        <div class="mb-3 col-md-4 form-group">
           <label for="exampleFormControlInput1" class="form-label"></label>
-          <input type="email" class="form-control seccion-formulario__formulario-casilla" id="exampleFormControlInput1"
-            placeholder="Email">
+          <input type="email" class="form-control seccion-formulario__formulario-casilla" id="email" placeholder="Email"
+            required="required" data-validation-required-message="Por favor ingrese un email valido.">
+          <p class="help-block text-danger"></p>
         </div>
-        <div class="mb-3 col-md-4">
+        <div class="mb-3 col-md-4 form-group">
           <label for="exampleFormControlInput1" class="form-label"></label>
-          <input type="email" class="form-control seccion-formulario__formulario-casilla" id="exampleFormControlInput1"
-            placeholder="Teléfono">
+          <input type="text" class="form-control seccion-formulario__formulario-casilla" id="phone"
+            placeholder="Teléfono" required="required" data-validation-required-message="Ingrese un n° de Teléfono.">
+          <p class="help-block text-danger"></p>
         </div>
-        <div class="mb-3 col-md-12">
+        <div class="mb-3 col-md-12 form-group">
           <label for="exampleFormControlTextarea1" class="form-label"></label>
-          <textarea class="form-control seccion-formulario__formulario-casilla" id="exampleFormControlTextarea1"
-            rows="1" placeholder="Mensaje"></textarea>
+          <textarea class="form-control seccion-formulario__formulario-casilla" id="message" rows="1"
+            placeholder="Mensaje"></textarea>
+
         </div>
 
       </div>
-      <button type="button" class="btn btn-primary seccion-formularios__formulario-boton col-md-12 botones"
-        onclick="location.href='./gracias.html'">Enviar</button>
+      <button name="sendMessageButton" type="submit"
+        class="btn btn-primary seccion-formularios__formulario-boton col-md-12 botones"
+        id="sendMessageButton">Enviar</button>
       <!-- <a href="#inicio">
         <i class="fas fa-chevron-up seccion-formulario__icono-volver-inicio"></i></a> -->
-    </section>
+    </form>
   </div>
   <!-- FIN NOVENA SECCION FORMULARIO -->
 
@@ -519,13 +532,16 @@
     <div class="row fondo-footer justify-content align-items-center">
       <div class="col-6 d-lg-none mb-1 mt-4">
         <div class="d-grid gap-2">
-          <button class="btn color-boton-info color-letra-info" type="button" onclick="location.href='#formulario'" class="color-letra-info"><a href="#formulario" ></a>Quiero más Info</button>
+          <button class="btn color-boton-info color-letra-info" type="button" onclick="location.href='#formulario'"
+            class="color-letra-info"><a href="#formulario"></a>Quiero más Info</button>
         </div>
       </div>
 
       <div class="col-6 d-lg-none mb-1 mt-4">
         <div class="d-grid gap-2">
-          <button class="btn color-boton-wpp color-letra" type="button" onclick="location.href='https:/api.whatsapp.com/send?phone=543537565328'"  target="_blank"><i class="fab fa-whatsapp whatsapp-footer"></i>WhatsApp</button>
+          <button class="btn color-boton-wpp color-letra" type="button"
+            onclick="location.href='https:/api.whatsapp.com/send?phone=543537565328'" target="_blank"><i
+              class="fab fa-whatsapp whatsapp-footer"></i>WhatsApp</button>
         </div>
       </div>
       <div class="col-4 d-lg-none colorbarra"></div>
@@ -545,6 +561,12 @@
   <script>
     AOS.init();
   </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./contact_me.js"></script>
+  <script src="./jqBootstrapValidation.js"></script>
+
+
 </body>
 
 </html>
