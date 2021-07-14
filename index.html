@@ -94,8 +94,9 @@
     </div>
     <a href="https://api.whatsapp.com/send?phone=5493537565328" target="_blank">
       <i class="fab fa-whatsapp primera-seccion__presentacion-icono-whatsapp">
-        <div class="msj-flotante  content content2">
-          <p>esto es una prueba</p>
+        <div class="msj-flotante  content content2 content3">
+          <img class="cuadro-dialogo-flotante" src="./img/iconos/cuadro-dialogo-celeste.png" alt="">
+          <p class="texto-mensaje-flotante">¡Consúltanos! Estamos en línea.</p>
         </div>
       </i></a>
     <a class="" href="#inicio"><i class="fas fa-chevron-up flotante-boton-volver"></i></a>
@@ -582,16 +583,24 @@
   <script src="./contact_me.js"></script>
   <script src="./jqBootstrapValidation.js"></script>
   <script type="text/javascript">
-    $(document).ready(function animacion() {
-      setTimeout(function () {
-        $(".content2").fadeIn(1500);
-      }, 60000);
-      setTimeout(function () {
+    // $(document).ready(setInterval(function () {
+    //   setTimeout(function () {
+    //     $(".content").fadeOut(1500);
+    //   }, 5000);
+    //   setTimeout(function () {
+    //     $(".content2").fadeIn(1500);
+    //   }, 10000);
+
+    // }), 120000);
+    $(document).ready(function () {
+      setInterval(function () {
         $(".content").fadeOut(1500);
-      }, 3000);
+      }, 5000);
+      setInterval(function () {
+        $(".content2").fadeIn(1500);
+      }, 90000);
 
     });
-    setInterval(animacion, 6000)
   </script>
 
 

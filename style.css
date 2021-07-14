@@ -152,13 +152,14 @@ body {
 .formulario-contacto-primera-seccion__primer-campo,
 .formulario-contacto-primera-seccion__segundo-campo,
 .formulario-contacto-primera-seccion__tercer-campo {
-  margin: 0px 10px 0px 0px;
+  margin: 0px 10px 0px px;
   width: 250px;
 }
 .formulario-contacto-primera-seccion__boton-enviar {
   background-color: #03a6a6;
   border-color: #03a6a6;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 /* FIN PRIMERA SECCION */
@@ -2169,7 +2170,7 @@ body {
 
 .msj-flotante {
   border-radius: 5px;
-  background-color: #02a5a7;
+  /* background-color: white; */
   width: 200px;
   height: 60px;
   font-size: 10px;
@@ -2177,8 +2178,26 @@ body {
   display: block;
   right: 110px;
   bottom: 80px;
+  /* border: 1px solid #02a5a7; */
+  align-items: center;
+  position: relative;
 }
-
+.cuadro-dialogo-flotante {
+  width: 200px;
+  height: 50px;
+  right: 100px;
+  top: 35px;
+  position: absolute;
+}
+.texto-mensaje-flotante {
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 150px;
+  right: 135px;
+  top: 45px;
+  font-size: 15px;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .flotante-boton-volver {
     visibility: visible !important;
@@ -2270,5 +2289,63 @@ body {
     background-color: white !important;
     color: #02a5a7 !important;
     text-decoration: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1192px) {
+  .primera-seccion__presentacion-icono-whatsapp {
+    visibility: visible;
+    display: block !important;
+    position: fixed !important;
+    z-index: 100;
+    font-size: 40px;
+    background-color: #1d2326;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+    bottom: 80px;
+    right: 30px;
+    background-color: #02a5a7;
+  }
+  .primera-seccion__presentacion-icono-whatsapp:hover {
+    background-color: white !important;
+    color: #02a5a7 !important;
+    text-decoration: none !important;
+  }
+
+  .msj-flotante {
+    border-radius: 5px;
+    /* background-color: white; */
+    width: 200px;
+    height: 60px;
+    font-size: 10px;
+    position: fixed;
+    display: block;
+    right: 110px;
+    bottom: 80px;
+    /* border: 1px solid #02a5a7; */
+    align-items: center;
+    position: relative;
+  }
+  .cuadro-dialogo-flotante {
+    width: 200px;
+    height: 50px;
+    right: 100px;
+    top: 35px;
+    position: absolute;
+  }
+  .texto-mensaje-flotante {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    right: 135px;
+    top: 45px;
+    font-size: 15px;
   }
 }
