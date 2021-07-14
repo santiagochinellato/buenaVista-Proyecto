@@ -71,25 +71,34 @@
       </p>
       <form class="formulario-contacto-primera-seccion" id="contactForm" name="sentMessage" class="needs-validation"
         novalidate>
-
-        <div class="formulario-contacto-primera-seccion__primer-campo">
-          <input type="text" class="form-control form-header" id="name" placeholder="Nombre completo"
-            required="required" data-validation-required-message="Por favor ingrese su nombre.">
+        <div class=" row form-row">
+          <div class="formulario-contacto-primera-seccion__primer-campo form-group">
+            <input type="text" class="form-control form-header" id="name" required="required"
+              data-validation-required-message="Por favor ingrese su nombre." placeholder="Nombre  completo">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="formulario-contacto-primera-seccion__segundo-campo form-group">
+            <input type="email" class="form-control form-header" id="email" placeholder="Email" required="required"
+              data-validation-required-message="Por favor ingrese un email valido">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="formulario-contacto-primera-seccion__tercer-campo form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Teléfono" required="required"
+              data-validation-required-message="Ingrese un n° de Teléfono.">
+            <p class="help-block text-danger"></p>
+          </div>
         </div>
-        <div class="formulario-contacto-primera-seccion__segundo-campo">
-          <input type="email" class="form-control form-header" id="email" placeholder="Email" required="required"
-            data-validation-required-message="Por favor ingrese un email valido.">
-        </div>
-        <div class="formulario-contacto-primera-seccion__tercer-campo">
-          <input type="text" class="form-control" id="phone" placeholder="Teléfono">
-        </div>
-        <button type="button" class="btn formulario-contacto-primera-seccion__boton-enviar botones"
+        <button type="submit" class="btn formulario-contacto-primera-seccion__boton-enviar botones"
           id="sendMessageButton">Empezar</button>
       </form>
     </div>
     <a href="https://api.whatsapp.com/send?phone=5493537565328" target="_blank">
       <i class="fab fa-whatsapp primera-seccion__presentacion-icono-whatsapp">
+        <div class="msj-flotante  content content2">
+          <p>esto es una prueba</p>
+        </div>
       </i></a>
+    <a class="" href="#inicio"><i class="fas fa-chevron-up flotante-boton-volver"></i></a>
 
   </section>
   </section>
@@ -112,7 +121,6 @@
           más</button> -->
       </div>
     </div>
-    <a class="flotante" href="#inicio"><i class="fas fa-chevron-up"></i></a>
   </section>
   <section class="parallax">
   </section>
@@ -143,8 +151,8 @@
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.141422556478!2d-54.896920684761696!3d-34.927989980376665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzQwLjgiUyA1NMKwNTMnNDEuMCJX!5e0!3m2!1ses-419!2sar!4v1625606041082!5m2!1ses-419!2sar"
-          class="mapaedit" allowfullscreen="" loading="lazy"></iframe>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.0617045544254!2d-54.896920684761696!3d-34.927989980376665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzQwLjgiUyA1NMKwNTMnNDEuMCJX!5e1!3m2!1ses-419!2sar!4v1626267655936!5m2!1ses-419!2sar"
+          class="mapaedit" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 col-xxl-1 text-center justify-content-center mt-2">
@@ -158,19 +166,18 @@
   <div class="container-fluid">
     <div class="tercera-seccion-bis">
       <img class="tercera-seccion-bis-imagen-buenavista col-md-12 col-sm-12 col-xs-12 mt-5 mb-5 w-75 "
-        src="./img/iconos/buenvavista-imagen.png" alt="buenavista" data-aos="zoom-in">
-      <p class="tercera-seccion-bis__texto" data-aos="zoom-in">Recostarse al sol, disfrutar una comida al aire libre,
-      </p>
+        src="./img/iconos/buenvavista-imagen.png" alt="buenavista">
+      <!-- <p class="tercera-seccion-bis__texto" data-aos="zoom-in">Recostarse al sol, disfrutar una comida al aire libre,
+      </p> -->
 
-      <p class="tercera-seccion-bis__texto" data-aos="zoom-in"> una visita al
-        puerto. Una actividad para cada momento.</P>
+      <p class="tercera-seccion-bis__texto">Una actividad para cada momento.</P>
     </div>
     <div class=" row tercera-seccion-bis__contenedor-imagenes">
-      <div class="tercera-seccion-bis__contenedor-imagenes-card col-md-3 col-sm-6 col-xs-12" data-aos="fade-zoom-in"
+      <!-- <div class="tercera-seccion-bis__contenedor-imagenes-card col-md-3 col-sm-6 col-xs-12" data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
         <img class=" tercera-seccion-bis__contenedor-imagenes-foto " src="./img/entornos/punte.jpg" alt="La Barra">
         <h6 class="tercera-seccion-bis__contenedor-imagenes-foto-texto ">La Barra</h6>
-      </div>
+      </div> -->
       <div class="tercera-seccion-bis__contenedor-imagenes-card col-md-3 col-sm-6 col-xs-12" data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"><img
           class="tercera-seccion-bis__contenedor-imagenes-foto " src="./img/entornos/conrad.jpg" alt="Hotel Conrad">
@@ -249,14 +256,19 @@
       </div>
       <div class="col-lg-6 col-sm-12 col-md-12 pb-5 text-center" id="departamentos">
         <h2 class="color-unidades ms-5 mt-5 titulo-carousel">Las Unidades</h2>
-        <p class="ms-5 mt-3 me-5 texto-carousel  ">Departamentos de 2, 3 y 4 ambientes diseñados con materiales de primera calidad, aberturas exteriores de aluminio de alta prestación con sistema de doble vidriado DVH, sistema de calefacción central con radiadores y pisos de porcelanatto de grandes dimensiones.</p>
-        <p class="ms-5 me-5 texto-carousel">Muebles en cocina, bajo mesada y alacena con moderno diseño y materiales de última tendencia, mesada de mármol.</p>
-        <p class="ms-5 me-5 mb-5 texto-carousel">Griferías y sanitarios de última generación, captación de agua de lluvia para riego y limpieza e Iluminación LED en áreas comunes.</p>
-        <button type="button" class="btn btn-primary cuarta-seccion-amenities__boton botones justify-content-center text-center" data-aos="zoom-in"
-        onclick="location.href='#formulario'">
-        Quiero
-        saber
-        más</button>
+        <p class="ms-5 mt-3 me-5 texto-carousel  ">Departamentos de 2, 3 y 4 ambientes diseñados con materiales de
+          primera calidad, aberturas exteriores de aluminio de alta prestación con sistema de doble vidriado DVH,
+          sistema de calefacción central con radiadores y pisos de porcelanatto de grandes dimensiones.</p>
+        <p class="ms-5 me-5 texto-carousel">Muebles en cocina, bajo mesada y alacena con moderno diseño y materiales de
+          última tendencia, mesada de mármol.</p>
+        <p class="ms-5 me-5 mb-5 texto-carousel">Griferías y sanitarios de última generación, captación de agua de
+          lluvia para riego y limpieza e Iluminación LED en áreas comunes.</p>
+        <button type="button"
+          class="btn btn-primary cuarta-seccion-amenities__boton botones justify-content-center text-center"
+          data-aos="zoom-in" onclick="location.href='#formulario'">
+          Quiero
+          saber
+          más</button>
       </div>
     </div>
   </div>
@@ -448,7 +460,7 @@
 
   <!-- INICIO NOVENA SECCION FORMULARIO -->
   <div class="container-fluid" id="contacto">
-    <form class=" row seccion-formulario" id="contactForm" name="sentMessage" novalidate>
+    <form class=" row seccion-formulario" id="contactForm" name="sentMessage" class="needs-validation" novalidate>
       <h2 class="seccion-formulario__titulo">Contacto</h2>
       <p class="seccion-formulario__subtitulo" id="formulario">¿Querés saber más sobre el proyecto?
         Dejanos tus datos
@@ -497,10 +509,18 @@
   <footer class="footer">
     <div class="footer__caja">
       <img src="./img/ammiraglia_logo.png" alt="Ammiraglia logo" class="footer__caja-logo">
-      <h6 class="footer__caja-telefono"><a href="tel:+5493537554837" class="footer__caja-telefono">+54 9
-          3537
-          554837</a></h6>
-      <div class="footer__menu">
+      <div class="caja-footer-informacion">
+        <h6 class="footer__caja-telefono">Justiniano Posse, CBA
+          2553, ARG</class=>
+        </h6>
+        <h6 class="footer__caja-telefono footer-caja-central"><a class="footer__caja-telefono-a"
+            href="tel:+5493537554837">+54 9
+            3537
+            554837</a></h6>
+        <h6 class="footer__caja-telefono"><a href="mailto:hola@ammiragliadesarrolladora.com"
+            class="footer__caja-telefono-a">hola@ammiragliadesarrolladora.com</a></h6>
+      </div>
+      <!-- <div class="footer__menu">
         <ul class="navbar-nav ms-auto footer__menu-ul">
           <li class="nav-item footer__menu final-pagina"><a class="nav-link m-3 final-letra" href="#ubicacion">UBICACION
             </a></li>
@@ -509,7 +529,7 @@
           <li class="nav-item footer__menu final-pagina"><a class="nav-link m-3 final-letra"
               href="#nosotros">NOSOTROS</a></li>
         </ul>
-      </div>
+      </div> -->
       <p class="pie-de-pagina text-white">Landing realizada por <a href="https://krak.com.ar/" target="_blank"
           class="krak">Krak</a>
       </p>
@@ -559,6 +579,18 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="./contact_me.js"></script>
   <script src="./jqBootstrapValidation.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function animacion() {
+      setTimeout(function () {
+        $(".content2").fadeIn(1500);
+      }, 60000);
+      setTimeout(function () {
+        $(".content").fadeOut(1500);
+      }, 3000);
+
+    });
+    setInterval(animacion, 6000)
+  </script>
 
 
 </body>
