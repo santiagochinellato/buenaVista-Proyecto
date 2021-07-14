@@ -418,6 +418,26 @@ body {
 .texto-carousel {
   font-weight: 25px;
   text-align: left;
+  list-style: disc;
+}
+
+.ajusteimgcarrousel{
+  height: 480px !important;
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .ajusteimgcarrousel{
+    height: 300px !important;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .ajusteimgcarrousel{
+    height: 375px !important;
+    width: 100%;
+  }
 }
 /* FIN QUINTA SECCION */
 
