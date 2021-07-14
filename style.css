@@ -599,9 +599,9 @@ body {
 }
 .seccion-formulario__icono-volver-inicio {
   background-color: #02a5a7;
-  width: 50px;
-  height: 50px;
-  font-size: 50px;
+  width: 35px;
+  height: 35px;
+  font-size: x-large;
   color: white;
   position: relative;
   float: right;
@@ -609,7 +609,24 @@ body {
   padding-left: 3px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
 }
+.flot {
+  position: relative;
+  bottom: 38px;
+  left: 600px;
+  width: 35px !important;
+  height: 35px;
+  background-color: #03a6a6;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  padding: 0%;
+}
 
+.flot:hover {
+  background-color: white !important;
+  color: #02a5a7 !important;
+  text-decoration: none !important;
+}
 /* FIN NOVENA SECCION */
 
 /* INICIO FOOTER */
@@ -1553,6 +1570,46 @@ body {
   .seccion-formulario__icono-volver-inicio {
     display: none;
   }
+  .flot {
+    display: none !important;
+    position: relative;
+    bottom: 38px;
+    left: 600px;
+    width: 35px !important;
+    height: 35px;
+    background-color: #03a6a6;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 0%;
+  }
+
+  .flot:hover {
+    background-color: white !important;
+    color: #02a5a7 !important;
+    text-decoration: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .flot {
+    display: none !important;
+    position: relative;
+    bottom: 38px;
+    left: 600px;
+    width: 35px !important;
+    height: 35px;
+    background-color: #03a6a6;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 0%;
+  }
+
+  .flot:hover {
+    background-color: white !important;
+    color: #02a5a7 !important;
+    text-decoration: none !important;
+  }
 }
 /* FIN MEDIAQUERIES CELULAR */
 
@@ -1889,7 +1946,7 @@ body {
 
 /* FIN MEDIAQUERIES CELULAR */
 .flotante {
-  visibility: visible;
+  visibility: hidden;
   display: scroll;
   position: fixed;
   bottom: 10px;
