@@ -385,7 +385,14 @@ body {
   width: 200px;
   height: 50px;
   font-weight: bold;
-  background-color: #02a5a7;
+  background-color: white !important;
+  color: #d9bb96 !important;
+  border: none;
+}
+
+.cuarta-seccion-amenities__boton:hover {
+  background-color: white !important;
+  color: #d9bb96 !important;
   border: none;
 }
 
@@ -2125,7 +2132,7 @@ body {
 
 .flotante-boton-volver {
   visibility: hidden;
-  display: block;
+  display: none;
   position: fixed;
   bottom: 10px;
   right: 20px;
