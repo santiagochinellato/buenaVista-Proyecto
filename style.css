@@ -653,7 +653,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .seccion-formulario__titulo {
@@ -670,8 +670,8 @@ body {
   font-weight: bold;
 }
 .seccion-formulario__formulario {
-  width: 1000px;
-  margin-top: 50px;
+  width: 800px;
+  margin-top: 30px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: row;
