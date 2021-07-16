@@ -176,7 +176,7 @@ body {
   color: white;
   font-size: 32px;
   font-weight: bold;
-  margin: 50px 0px 40px 0px;
+  margin: 30px 0px 40px 0px;
 }
 
 .color-letradetexto {
@@ -184,7 +184,8 @@ body {
   font-size: 24px;
   line-height: 30px;
   font-weight: inherit;
-  margin-bottom: 40px;
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
 
 .bg-boton1 {
@@ -433,7 +434,7 @@ body {
   background-color: rgb(217, 187, 150);
   width: 40px;
   height: 40px;
-  margin-top: 250px;
+  margin-top: 50px;
 }
 .titulo-carousel {
   font-weight: bold;
@@ -444,9 +445,8 @@ body {
   margin-top: 60px;
 }
 .texto-carousel {
-  font-weight: 25px;
-  text-align: left;
-  list-style: disc;
+  font-weight: 25px;  
+  list-style-image: url(./img/logo1.png);
 }
 
 .ajusteimgcarrousel {
@@ -467,6 +467,16 @@ body {
     width: 100%;
   }
 }
+
+@media (min-width: 1400px) {
+  .ajusteimgcarrousel{
+    width: 1279px !important;
+    height: 719px !important;
+  }
+}
+
+
+
 /* FIN QUINTA SECCION */
 
 /* INICIO SEXTA SECCION */
@@ -1367,7 +1377,7 @@ body {
     background-color: rgb(217, 187, 150);
     width: 40px !important;
     height: 40px !important;
-    margin-top: 140px;
+    margin-top: 50px;
   }
   .titulo-carousel {
     text-align: center;
@@ -1968,13 +1978,14 @@ body {
     color: white;
     font-size: 28px;
     font-weight: bold;
-    margin: 50px 0px 30px 0px;
+    margin: 25px 0px 30px 0px;
   }
   .color-letradetexto {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
-    margin-bottom: 30px;
+    margin-top: -25px;
+    margin-bottom: 25px;
     padding: 0;
   }
   .bg-boton1 {
@@ -2000,14 +2011,15 @@ body {
     color: white;
     font-size: 22px;
     font-weight: bold;
-    margin: 50px 0px 30px 0px;
+    margin: 20px 0px 30px 0px;
   }
 
   .color-letradetexto {
     color: white;
     font-size: 14px;
     line-height: 25px;
-    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-bottom: 20px;
     padding: 0;
   }
 
