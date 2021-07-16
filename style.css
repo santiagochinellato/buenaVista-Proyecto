@@ -443,8 +443,8 @@ body {
 }
 
 .texto-carousel {
-  font-weight: 25px; 
-  text-align: left; 
+  font-weight: 25px;
+  text-align: left;
 }
 
 .ajusteimgcarrousel {
@@ -452,7 +452,7 @@ body {
   width: 100%;
 }
 
-.aberturas{
+.aberturas {
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -460,12 +460,12 @@ body {
   border-bottom: 1px solid white;
 }
 
-.parrafocarrousel{
+.parrafocarrousel {
   width: 100%;
   padding: 10px;
 }
 
-.miniaturacarrousel{
+.miniaturacarrousel {
   width: 120px;
 }
 
@@ -474,7 +474,7 @@ body {
     height: 340px !important;
     width: 100%;
   }
-  .miniaturacarrousel{
+  .miniaturacarrousel {
     width: 70px;
   }
 }
@@ -484,19 +484,17 @@ body {
     height: 425px !important;
     width: 100%;
   }
-  .miniaturacarrousel{
+  .miniaturacarrousel {
     width: 80px;
   }
 }
 
 @media (min-width: 1400px) {
-  .ajusteimgcarrousel{
+  .ajusteimgcarrousel {
     width: 1279px !important;
     height: 719px !important;
   }
 }
-
-
 
 /* FIN QUINTA SECCION */
 
@@ -2413,7 +2411,7 @@ body {
     position: relative;
     float: right;
     bottom: 80px;
-    right: 30px;
+    right: 40px;
     background-color: #02a5a7;
   }
   .primera-seccion__presentacion-icono-whatsapp:hover {
@@ -2438,9 +2436,9 @@ body {
   }
   .cuadro-dialogo-flotante {
     width: 200px;
-    height: 50px;
+    height: 95px;
     right: 100px;
-    top: 35px;
+    top: 15px;
     position: absolute;
   }
   .texto-mensaje-flotante {
@@ -2449,7 +2447,8 @@ body {
     position: absolute;
     width: 150px;
     right: 135px;
-    top: 45px;
+    top: 40px;
     font-size: 15px;
+    font-weight: bold;
   }
 }
