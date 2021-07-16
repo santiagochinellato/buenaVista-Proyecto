@@ -441,32 +441,10 @@ body {
   text-align: start;
   margin-bottom: 25px;
 }
-.contenedor-texto-boton-unidades {
-  margin-top: 60px;
-}
+
 .texto-carousel {
   font-weight: 25px; 
   text-align: left; 
-}
-
-.aberturas{
-  list-style-image: url(./img/iconos-unidades/aberturas2.png);
-}
-
-.calefaccion{
-  list-style-image: url(./img/iconos-unidades/calefaccion2.png);
-}
-
-.griferias{
-  list-style-image: url(./img/iconos-unidades/griferias2.png);
-}
-
-.riego{
-  list-style-image: url(./img/iconos-unidades/riego2.png);
-}
-
-.iluminacion{
-  list-style-image: url(./img/iconos-unidades/ilumninacion2.png);
 }
 
 .ajusteimgcarrousel {
@@ -474,10 +452,30 @@ body {
   width: 100%;
 }
 
+.aberturas{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.parrafocarrousel{
+  width: 100%;
+  padding: 10px;
+}
+
+.miniaturacarrousel{
+  width: 120px;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .ajusteimgcarrousel {
     height: 340px !important;
     width: 100%;
+  }
+  .miniaturacarrousel{
+    width: 70px;
   }
 }
 
@@ -485,6 +483,9 @@ body {
   .ajusteimgcarrousel {
     height: 425px !important;
     width: 100%;
+  }
+  .miniaturacarrousel{
+    width: 80px;
   }
 }
 
