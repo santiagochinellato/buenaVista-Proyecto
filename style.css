@@ -445,7 +445,8 @@ body {
   margin-top: 60px;
 }
 .texto-carousel {
-  font-weight: 25px;  
+  font-weight: 25px; 
+  text-align: left; 
 }
 
 .aberturas{
