@@ -475,8 +475,14 @@ body {
     width: 100%;
   }
   .miniaturacarrousel {
-    width: 70px;
+    width: 120px;
   }
+  .parrafocarrousel {
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+  }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -491,8 +497,11 @@ body {
 
 @media (min-width: 1400px) {
   .ajusteimgcarrousel {
-    width: 1279px !important;
-    height: 719px !important;
+    width: 1179px !important;
+    height: 619px !important;
+  }
+  .miniaturacarrousel {
+    width: 150px;
   }
 }
 
