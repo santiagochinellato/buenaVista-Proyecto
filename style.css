@@ -225,11 +225,19 @@ body {
 /* INICIO TERCERA SECCION */
 .color-subtit {
   margin-top: 50px;
+  margin-bottom: 20px;
   color: rgb(2, 165, 167);
+}
+.contenedor-imagen-texto-informacion {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%) !important;
+  border-radius: 5px;
+  padding: 20px 20px 40px 20px;
 }
 .texto-informacion {
   font-size: 16px;
   line-height: 25px;
+  text-align: justify;
 }
 
 .mapaedit {
@@ -291,7 +299,9 @@ body {
   text-align: center;
   margin-bottom: 5px;
   font-weight: bold;
+  width: 640px;
   /* font-size: 20px; */
+  margin: auto;
 }
 
 .tercera-seccion-bis__contenedor-imagenes {
@@ -335,6 +345,10 @@ body {
   .tercera-seccion-bis__contenedor-imagenes-foto-texto {
   opacity: 1;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+
+.carousel-celulares-bis {
+  display: none;
 }
 
 /* FIN TERCERA SECCION */
@@ -863,7 +877,8 @@ body {
     font-size: 15px;
   }
   .logo-navbar {
-    width: 150px;
+    width: 170px;
+    height: 35px;
   }
 
   .nav-link-color-letra {
@@ -897,7 +912,8 @@ body {
     font-size: 15px;
   }
   .logo-navbar {
-    width: 150px;
+    width: 170px;
+    height: 35px;
   }
   .nav-item {
     width: 330px;
@@ -976,6 +992,7 @@ body {
     color: white;
     width: 300px;
     text-align: center;
+    display: none;
   }
   .formulario-contacto-primera-seccion {
     display: flex;
@@ -1063,6 +1080,7 @@ body {
     color: white;
     width: 500px;
     text-align: center;
+    display: none;
   }
   .formulario-contacto-primera-seccion {
     display: flex;
@@ -1117,13 +1135,13 @@ body {
   .tercera-seccion-bis-imagen-buenavista {
     display: block;
     margin: auto;
-    margin: 100px 0px 30px 0px !important;
+    margin: auto;
   }
   .tercera-seccion-bis__titulo {
     text-align: center;
     color: rgb(217, 187, 150);
     font-size: 150px;
-    margin: 100px 0px 50px 0px;
+    margin: auto;
     font-weight: bold;
     font-family: "akkurat-bold";
     letter-spacing: 15px !important;
@@ -1131,6 +1149,11 @@ body {
 
   .tercera-seccion-bis__texto {
     text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 500px !important;
+    /* font-size: 20px; */
+    margin: auto;
   }
 
   .tercera-seccion-bis__contenedor-imagenes {
@@ -1171,10 +1194,21 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .contenedor-imagen-texto-informacion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%) !important;
+    border-radius: 5px;
+    padding: 20px 20px;
+  }
+  .mapaedit {
+    padding-top: 50px;
+    height: 100%;
+  }
   .color-subtit {
     margin-top: 50px;
     color: rgb(2, 165, 167);
     font-size: 28px;
+    text-align: center;
   }
   .texto-informacion {
     font-size: 16px;
@@ -1200,6 +1234,10 @@ body {
   .tercera-seccion-bis__texto {
     text-align: center;
     margin-bottom: 5px;
+    font-weight: bold;
+    width: 500px;
+    /* font-size: 20px; */
+    margin: auto;
   }
 
   .tercera-seccion-bis__contenedor-imagenes {
@@ -1244,12 +1282,22 @@ body {
     opacity: 1;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
   }
+  .carousel-celulares-bis {
+    display: none;
+  }
 }
 /* MEDIAQUERY TABLETS */
 
 /* MEDIAQUERY CELULARES TERCERA SECCION */
 @media (min-width: 320px) and (max-width: 767px) {
+  .contenedor-imagen-texto-informacion {
+    border: none;
+    box-shadow: none !important;
+    border-radius: 5px;
+    padding: 20px 20px;
+  }
   .color-subtit {
+    text-align: center;
     margin-top: 50px;
     color: rgb(2, 165, 167);
     font-size: 22px;
@@ -1265,11 +1313,22 @@ body {
     display: block;
     margin: auto;
   }
-
+  .titulo-principal-carousel {
+    text-align: center;
+    margin: 00px 0px 30px 0px;
+    color: #02a5a7;
+    font-weight: bold;
+  }
   .tercera-seccion-bis__texto {
     text-align: center;
     font-size: 14px;
     margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 300px;
+    /* font-size: 20px; */
+    margin: auto;
   }
   .tercera-seccion-bis-imagen-buenavista {
     padding-top: 50px;
@@ -1284,7 +1343,7 @@ body {
 
   .tercera-seccion-bis__contenedor-imagenes-card {
     width: 250px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -1292,10 +1351,10 @@ body {
   }
 
   .tercera-seccion-bis__contenedor-imagenes-foto {
-    width: 200px;
-    height: 200px;
   }
-
+  .texto-carousel-celulares {
+    margin-bottom: 76%;
+  }
   .tercera-seccion-bis__contenedor-imagenes-foto-texto {
     width: 200px;
     height: 200px;
@@ -1310,6 +1369,11 @@ body {
       rgba(0, 0, 0, 0.1)
     );
     padding-top: 50%;
+  }
+  .carousel-celulares-bis {
+    width: 90%;
+    height: 90%;
+    margin: auto;
   }
 }
 

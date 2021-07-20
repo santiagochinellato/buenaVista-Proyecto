@@ -133,13 +133,12 @@
 
   <div class="container" id="ubicacion">
     <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="color-subtit"><b>¿Hay algo más lindo que vivir cerca del mar?</b></h2>
-      </div>
+
     </div>
 
-    <div class="row mt-5">
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <div class="row mt-5 contenedor-imagen-texto-informacion">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
+        <h2 class="color-subtit"><b>¿Hay algo más lindo que vivir cerca del mar?</b></h2>
         <p class="texto-informacion">La tendencia hacia la búsqueda de propiedades en entornos más saludables y que
           garanticen una mejor calidad
           de vida se ha disparado en los últimos años.</p>
@@ -147,14 +146,14 @@
           principales ventajas está la de encontrarte con la playa y la inmensidad del mar con sólo caminar unos pasos,
           dar un paseo por la Av. gorlero
           y disfrutar de su variada propuesta gastronómica o contemplar la puesta de sol en el puerto de yates.</p>
-        <p class="texto-informacion"><b>Vas a vivir en un lugar que te ofrece seguridad y bienestar, en un entorno
+        <!-- <p class="texto-informacion"><b>Vas a vivir en un lugar que te ofrece seguridad y bienestar, en un entorno
             natural que integra mar, verde
-            y ciudad.</b></p>
+            y ciudad.</b></p> -->
       </div>
 
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.0617045544254!2d-54.896920684761696!3d-34.927989980376665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzQwLjgiUyA1NMKwNTMnNDEuMCJX!5e1!3m2!1ses-419!2sar!4v1626267655936!5m2!1ses-419!2sar"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5324.050837092335!2d-54.89535519893797!3d-34.9291083184338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzQwLjgiUyA1NMKwNTMnNDEuMCJX!5e1!3m2!1ses!2sar!4v1626787182319!5m2!1ses!2sar"
           class="mapaedit" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
@@ -173,7 +172,10 @@
       <!-- <p class="tercera-seccion-bis__texto" data-aos="zoom-in">Recostarse al sol, disfrutar una comida al aire libre,
       </p> -->
 
-      <p class="tercera-seccion-bis__texto">Punta del Este, una actividad para cada momento.</P>
+      <p class="tercera-seccion-bis__texto">Punta del Este, vas a vivir en un lugar que te ofrece seguridad y bienestar,
+        en un entorno
+        natural que integra mar, verde
+        y ciudad</P>
     </div>
     <div class=" row tercera-seccion-bis__contenedor-imagenes">
       <!-- <div class="tercera-seccion-bis__contenedor-imagenes-card col-md-3 col-sm-6 col-xs-12" data-aos="fade-zoom-in"
@@ -194,6 +196,50 @@
         <h6 class="tercera-seccion-bis__contenedor-imagenes-foto-texto ">Playa Brava</h6>
       </div>
     </div>
+    <!-- carousel para tablets y celulares -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-celulares-bis" data-bs-ride="carousel">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/entornos/conrad.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-inline d-md-inline texto-carousel-celulares">
+            <h5>Hotel Conrad</h5>
+            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/entornos/yates.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-inline d-md-inline texto-carousel-celulares">
+            <h5>Puerto de Yates</h5>
+            <!-- <p>Some representative placeholder content for the second slide.</p> -->
+          </div>
+        </div>
+        <div class=" carousel-item">
+          <img src="./img/entornos/surf.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-inline d-md-inline texto-carousel-celulares">
+            <h5>Playa Brava</h5>
+            <!-- <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+      </div>
+      <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
 
   <!-- FIN TERCERA SECCION INFORMACION -->
@@ -201,7 +247,8 @@
   <!-- INICIO QUINTA SECCION CAROUSEL -->
   <div class="container-fluid">
     <h2 class=" titulo-principal-carousel col-lg-12 col-sm-12 col-md-12 ">Las Unidades</h2>
-    <p class="bajada-principal-carousel col-lg-12 col-sm-12 col-md-12 ">Departamentos de 2, 3 y 4 ambientes diseñados
+    <p class="bajada-principal-carousel col-lg-12 col-sm-12 col-md-12 ">Departamentos de 2, 3 y 4 ambientes
+      diseñados
       con materiales de
       primera calidad.</p>
     <div class="row justify-content-center align-items-center bg-carrousel pt-0">
@@ -439,12 +486,14 @@
           <div class="accordion-body">
             <p><b>Mientras se está ejecutando la construcción.</b> </p>
             <p>
-              Primeramente, se hará el<b> Boleto de Reserva de la unidad</b> , donde se detalla la fecha de entrega,
+              Primeramente, se hará el<b> Boleto de Reserva de la unidad</b> , donde se detalla la fecha de
+              entrega,
               la unidad adjudicada, forma de pago y además de acordar los diversos términos en el
               documento. En una instancia posterior, se procederá a realizar <b>Contrato de Promesa de
                 Enajenación de inmueble</b> . Este documento se firma ante escribano y es registrado.
             <p><b> Finalizada la construcción</b></p>
-            Se firma el Acta de <b>posesión de unidades y entrega de llaves</b>. Una vez otorgada la habilitación
+            Se firma el Acta de <b>posesión de unidades y entrega de llaves</b>. Una vez otorgada la
+            habilitación
             de la intendencia se firma la <b>Escritura Definitiva</b> .</p>
           </div>
         </div>
@@ -571,7 +620,8 @@
       <div class="col-6 d-lg-none mb-1 mt-4">
         <div class="d-grid gap-2">
           <button class="btn color-boton-info color-letra-info" type="button" onclick="location.href='#formulario'"
-            class="color-letra-info"><a href="#formulario"></a>Quiero más Info</button>
+            class="color-letra-info"><a href="#formulario"></a>Quiero más
+            Info</button>
         </div>
       </div>
 
