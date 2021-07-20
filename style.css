@@ -264,6 +264,7 @@ body {
 .boton-sabermas {
   background-color: rgb(2, 165, 167) !important;
   border: #02a5a7;
+  margin-top: 20px;
 }
 
 .boton-sabermas:hover {
@@ -1549,8 +1550,8 @@ body {
     margin: 20px 0px;
   }
 
-  .tercera-seccion-bis__contenedor-imagenes-foto {
-  }
+  /* .tercera-seccion-bis__contenedor-imagenes-foto {
+  } */
   .texto-carousel-celulares {
     margin-bottom: 76%;
   }
@@ -1573,6 +1574,9 @@ body {
     margin: auto;
     display: inline;
     padding-bottom: 50px !important;
+  }
+  .carousel-celulares-contenedor {
+    margin: auto;
   }
 }
 
