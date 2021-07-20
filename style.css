@@ -417,121 +417,394 @@ body {
   margin-bottom: 50px;
   font-weight: bold;
 }
-.bg-carrousel {
-  background-color: rgb(217, 187, 150);
+
+.contenedor{
+  position: relative;
 }
 
-.color-unidades {
-  color: rgb(255, 255, 255);
+.imgunidades1{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url(./img/JPG/12Parrilla.jpg);
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position-y: center;
 }
 
-.indicador {
-  background-color: rgb(217, 187, 150) !important;
+.textoimg{
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color:white !important;
+  font-weight: bold; 
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgb(217, 187, 150);
-  width: 40px;
-  height: 40px;
-  margin-top: 50px;
+.imgunidades2{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url(./img/JPG/11TERRAZA.jpg);
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position-y: center;
 }
-.titulo-carousel {
+
+.textoimg2{
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color:white !important;
+  font-weight: bold; 
+}
+
+.imgunidades3{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url(./img/JPG/03COCINA.jpg);
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position-y: center;
+}
+
+.textoimg3{
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color:white !important;
+  font-weight: bold; 
+}
+
+.imgunidades4{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url(./img/JPG/10PILETA.jpg);
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position-y: center;
+}
+
+.textoimg4{
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color:white !important;
   font-weight: bold;
-  text-align: start;
-  margin-bottom: 25px;
 }
 
-.texto-carousel {
-  font-weight: 25px;
-  text-align: left;
+.imgunidades5{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url(./img/JPG/04DEPTO-EXTERIOR.jpg);
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position-y: center;
 }
 
-.ajusteimgcarrousel {
-  height: 520px !important;
-  width: 100%;
+.textoimg5{
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color:white !important;
+  font-weight: bold;
 }
 
-.aberturas {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  border-bottom: 1px solid white;
+.imgunidades6{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url(./img/JPG/05DEPTO-TERRAZA.jpg);
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position-y: center;
 }
 
-.parrafocarrousel {
-  width: 100%;
-  padding: 10px;
-}
-
-.miniaturacarrousel {
-  width: 120px;
+.textoimg6{
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color:white !important;
+  font-weight: bold;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .ajusteimgcarrousel {
-    height: 340px !important;
-    width: 100%;
+  .imgunidades1{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/12Parrilla.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
   }
-  .miniaturacarrousel {
-    width: 120px;
+  
+  .textoimg{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold; 
   }
-  .parrafocarrousel {
-    width: 100%;
-    padding: 10px 10px 0px 10px;
+
+  .imgunidades2{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/11TERRAZA.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
   }
+  
+  .textoimg2{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold; 
+  }
+
+  .imgunidades3{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/03COCINA.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg3{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold; 
+  }
+
+  .imgunidades4{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/10PILETA.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg4{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .imgunidades5{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/04DEPTO-EXTERIOR.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg5{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .imgunidades6{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/05DEPTO-TERRAZA.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg6{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .ajusteimgcarrousel {
-    height: 425px !important;
-    width: 100%;
+  .imgunidades1{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/12Parrilla.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
   }
-  .miniaturacarrousel {
-    width: 80px;
+  
+  .textoimg{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold; 
+  }
+
+  .imgunidades2{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/11TERRAZA.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg2{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold; 
+  }
+
+  .imgunidades3{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/03COCINA.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg3{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold; 
+  }
+
+  .imgunidades4{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/10PILETA.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg4{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .imgunidades5{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/04DEPTO-EXTERIOR.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg5{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .imgunidades6{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/JPG/05DEPTO-TERRAZA.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  }
+  
+  .textoimg6{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color:white !important;
+    font-weight: bold;
   }
 }
 
-@media (min-width: 1400px) and (max-width: 1600px) {
-  .ajusteimgcarrousel {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .miniaturacarrousel {
-    width: 100px !important;
-  }
-}
-
-@media (min-width: 1600px) and (max-width: 1850px) {
-  .ajusteimgcarrousel {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .miniaturacarrousel {
-    width: 120px !important;
-  }
-}
-
-@media (min-width: 1850px) and (max-width: 2400px) {
-  .ajusteimgcarrousel {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .miniaturacarrousel {
-    width: 125px !important;
-  }
-}
-
-@media (min-width: 2400px) {
-  .ajusteimgcarrousel {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .miniaturacarrousel {
-    width: 175px !important;
-  }
-}
 
 /* FIN QUINTA SECCION */
 
