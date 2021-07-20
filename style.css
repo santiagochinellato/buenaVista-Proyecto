@@ -1312,7 +1312,7 @@ body {
     margin: 20px 0px;
   }
 
-<<<<<<< HEAD
+  <<<<<<< HEAD
   /* .tercera-seccion-bis__contenedor-imagenes-foto {
   } */
 =======
@@ -1342,6 +1342,11 @@ body {
   }
   .carousel-celulares-contenedor {
     margin: auto;
+    width: 80%;
+    height: auto;
+  }
+  .texto-carousel-celulares {
+    top: 20px;
   }
 }
 
@@ -1454,7 +1459,6 @@ body {
   }
 }
 /* FIN MEDIAQUERIES CELURARES CUARTA SECCIONES */
-
 
 /* INICIO MEDIAQUERIE SEXTA SECCION */
 
