@@ -1338,7 +1338,9 @@ body {
   .carousel-celulares-bis {
     margin: auto;
     display: inline;
-    padding-bottom: 50px !important;
+  }
+  .opacity-3 {
+    filter: brightness(80%);
   }
   .carousel-celulares-contenedor {
     margin: auto;
@@ -1346,7 +1348,11 @@ body {
     height: auto;
   }
   .texto-carousel-celulares {
-    top: 20px;
+    top: 15px;
+    font-weight: bold;
+  }
+  .texto-carousel-lugares {
+    font-size: 25px;
   }
 }
 
